@@ -3,13 +3,27 @@
 import json
 import os
 import sys
+import time
 from pathlib import Path
 
-from .publish_queue import wait_public, HISTORY
+import requests
+
 from .upload import publish_carousel
 from .notify import notify
 
 ROOT = Path(__file__).resolve().parent.parent
+HISTORY = ROOT / "data/history.json"
+
+
+def wait_public(url):
+    for _ in range(60):
+        try:
+            if requests.head(url, timeout=10).status_code == 200:
+                return
+        except requests.RequestException:
+            pass
+        time.sleep(10)
+    raise TimeoutError(f"공개 URL 반영 대기 초과: {url}")
 
 
 def main(date: str):
