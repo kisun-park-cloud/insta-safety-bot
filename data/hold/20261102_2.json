@@ -136,5 +136,13 @@
       }
     ],
     "summary": "공단 사례 자료의 사실만 사용, 업체·피해자 특정 정보 없음, 부상 묘사 없는 그림"
-  }
+  },
+  "rule_issues": [
+    {
+      "severity": "major",
+      "where": "출처",
+      "problem": "URL 접속 불가(500): https://gonggam.korea.kr/newsContentView.es?mid=a10204000000&section_id=NCCD_CULTURE&content=NC002&code_cd=&nPage=365&b_list=9&news_id=EBC6D40105E04203E0540021F662AC5F",
+      "fix": "유효 출처로 교체"
+    }
+  ]
 }
