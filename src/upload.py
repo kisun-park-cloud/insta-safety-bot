@@ -39,16 +39,34 @@ def _get(path, **params):
     return _check(requests.get(f"{_api()}/{path}", params=params, timeout=30))
 
 
+def _safe(fn):
+    try:
+        return fn()
+    except Exception as e:  # 탐색 실패는 다음 방법으로
+        print("  (탐색 실패:", str(e)[:200], ")")
+        return []
+
+
 def ig_user_id() -> str:
     """IG_USER_ID 미설정 시 토큰으로 계정 ID 자동 조회."""
     if os.getenv("IG_USER_ID"):
         return os.environ["IG_USER_ID"]
     if _is_ig_token():
         return _get("me", fields="user_id,username")["user_id"]
-    accts = _get("me/accounts", fields="name,instagram_business_account{id,username}").get("data", [])
-    for a in accts:
-        if a.get("instagram_business_account"):
-            return a["instagram_business_account"]["id"]
+    # 통합 로그인 토큰: 페이지 → 비즈니스 포트폴리오 순으로 연결된 인스타 계정 탐색
+    tries = [
+        lambda: [a["instagram_business_account"] for a in _get(
+            "me/accounts", fields="instagram_business_account{id,username}").get("data", [])
+            if a.get("instagram_business_account")],
+        lambda: [ia for b in _get("me/businesses").get("data", [])
+                 for edge in ("instagram_accounts", "owned_instagram_accounts")
+                 for ia in _safe(lambda: _get(f"{b['id']}/{edge}", fields="id,username").get("data", []))],
+    ]
+    for t in tries:
+        found = _safe(t)
+        if found:
+            print("찾은 인스타그램 계정:", found)
+            return found[0]["id"]
     raise RuntimeError("토큰으로 인스타그램 계정 ID를 찾지 못함 — Secrets 에 IG_USER_ID 를 등록하세요")
 
 
