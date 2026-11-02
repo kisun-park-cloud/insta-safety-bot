@@ -1,0 +1,39 @@
+name: 미리보기 수동 게시
+
+# 이미 만들어진 docs/media/날짜 카드뉴스를 인스타그램에 바로 게시 (DRY_RUN 과 무관)
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "게시할 날짜 (예: 20261102)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency: insta-post
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests pyyaml pydantic
+      - name: 게시
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m src.post_existing "${{ inputs.date }}"
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "insta-bot"
+          git config user.email "insta-bot@users.noreply.github.com"
+          git add -A content data
+          git diff --cached --quiet || (git commit -m "posted: ${{ inputs.date }}" && git pull --rebase origin main && git push origin HEAD:main)
