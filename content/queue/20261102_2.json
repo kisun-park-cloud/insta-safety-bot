@@ -7,7 +7,7 @@
       "2021.8.7 경기도 공사현장, A형 사다리에서 검전기로 천장 소방배관 누전부 확인 중 전원 투입되어 감전 후 추락 사망",
       "원인: 정전작업 미실시, 작업발판 미설치·사다리 단독작업, 턱끈 빠진 안전모",
       "대책: 작업 전 전로 차단, 정전 상태에서 절연저항측정계로 누전 확인, 비계 등 작업발판 설치, 안전대·안전모 착용",
-      "감전 3대 기본수칙: 접지, 누전차단기 설치, 정비 시 전원차단 / 응급조치: 직접 접촉 금지, 전원 차단 후 안전한 장소에서 응급조치"
+      "감전재해예방 3대 안전수칙: 접지, 누전차단기 설치, 전기기기 정비 시 전원차단 / 사고 시 우선 전원 차단, 나무 등 절연체로 사고자 분리 후 응급조치 (고용노동부 보도자료)"
     ],
     "legal_refs": [],
     "sources": [
@@ -17,9 +17,9 @@
         "publisher": "안전보건공단"
       },
       {
-        "title": "습한 여름… 감전·질식 사고 주의하세요!",
-        "url": "https://gonggam.korea.kr/newsContentView.es?mid=a10204000000&section_id=NCCD_CULTURE&content=NC002&code_cd=&nPage=365&b_list=9&news_id=EBC6D40105E04203E0540021F662AC5F",
-        "publisher": "대한민국 정부 정책주간지 K-공감"
+        "title": "여름 산업현장 장마철 감전사고 주의 (감전재해예방 3대 안전수칙)",
+        "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=5820",
+        "publisher": "고용노동부"
       }
     ]
   },
@@ -86,14 +86,14 @@
       {
         "heading": "감전 사고 응급조치",
         "body": [
-          "맨손으로 사고자를 만지지 않기",
           "먼저 사고 설비의 전원 차단",
-          "안전한 곳으로 옮겨 응급조치"
+          "나무 등 절연체로 사고자 분리",
+          "분리 후 응급조치 실시"
         ],
         "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><ellipse cx=\"450\" cy=\"455\" rx=\"420\" ry=\"40\" fill=\"#C9F0D9\"/><circle cx=\"90\" cy=\"80\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M760 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(220 270)\"><circle r=\"120\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-70 -70 L70 70\" stroke=\"#fff\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(0 10) scale(.9)\"><path d=\"M-40 60 v-90 a14 14 0 0 1 28 0 v-30 a14 14 0 0 1 28 0 v30 a14 14 0 0 1 28 0 v20 a14 14 0 0 1 28 0 v70 q0 50 -50 50 h-20 q-42 0 -42 -50z\" fill=\"#FFD8B5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></g><g transform=\"translate(500 330) scale(0.9)\">\n<rect x=\"-90\" y=\"-170\" width=\"180\" height=\"290\" rx=\"34\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n<rect x=\"-56\" y=\"-140\" width=\"112\" height=\"110\" rx=\"18\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-22\" y=\"-60\" width=\"44\" height=\"60\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n<circle cx=\"-22\" cy=\"20\" r=\"7\" fill=\"#22304A\"/><circle cx=\"22\" cy=\"20\" r=\"7\" fill=\"#22304A\"/><path d=\"M-12 42 q12 10 24 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"-42\" cy=\"38\" rx=\"10\" ry=\"6\" fill=\"#FFA8B8\"/><ellipse cx=\"42\" cy=\"38\" rx=\"10\" ry=\"6\" fill=\"#FFA8B8\"/><circle cx=\"0\" cy=\"88\" r=\"17\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(590 110)\"><circle r=\"40\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-18 0 l12 14 l24 -28\" fill=\"none\" stroke=\"#fff\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(760 300)\"><rect x=\"-90\" y=\"-70\" width=\"180\" height=\"130\" rx=\"20\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-30\" y=\"-100\" width=\"60\" height=\"34\" rx=\"10\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -40 h28 v26 h26 v28 h-26 v26 h-28 v-26 h-26 v-28 h26z\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
       }
     ],
-    "caption": "누전을 확인하던 사다리 위에서, 전원이 다시 들어왔습니다.\n\n2021년 8월 경기도의 한 공사현장에서 A형 사다리에 올라 천장 소방배관의 누전 부위를 확인하던 근로자가, 작업 중 전원이 투입되면서 감전된 뒤 추락해 숨지는 사고가 있었습니다. 삼가 고인의 명복을 빕니다.\n\n안전보건공단 사례 자료는 원인으로 정전작업 미실시, 작업발판 없이 사다리 위에서 단독 작업, 턱끈이 풀린 안전모 착용을 꼽았습니다. 예방대책은 작업 전 해당 전로 차단, 누전 원인 확인은 정전 상태에서 절연저항측정계로, 비계 등 작업발판 설치, 안전대·안전모 등 보호구 착용입니다.\n\n감전 예방의 기본은 '접지, 누전차단기 설치, 정비 시 전원 차단' 세 가지입니다. 감전 사고가 나면 맨손으로 사고자를 만지지 말고 먼저 전원을 차단한 뒤 안전한 곳으로 옮겨 응급조치하세요.\n\n출처:\n- 안전보건공단 – 발주 중대재해 사례 OPS 「A형 사다리에서 작업 중 감전되어 추락」\n- K-공감(대한민국 정부 정책주간지) – 「습한 여름… 감전·질식 사고 주의하세요!」\n\n개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다.",
+    "caption": "누전을 확인하던 사다리 위에서, 전원이 다시 들어왔습니다.\n\n2021년 8월 경기도의 한 공사현장에서 A형 사다리에 올라 천장 소방배관의 누전 부위를 확인하던 근로자가, 작업 중 전원이 투입되면서 감전된 뒤 추락해 숨지는 사고가 있었습니다. 삼가 고인의 명복을 빕니다.\n\n안전보건공단 사례 자료는 원인으로 정전작업 미실시, 작업발판 없이 사다리 위에서 단독 작업, 턱끈이 풀린 안전모 착용을 꼽았습니다. 예방대책은 작업 전 해당 전로 차단, 누전 원인 확인은 정전 상태에서 절연저항측정계로, 비계 등 작업발판 설치, 안전대·안전모 등 보호구 착용입니다.\n\n감전 예방의 기본은 '접지, 누전차단기 설치, 정비 시 전원 차단' 세 가지입니다. 감전 사고가 나면 먼저 전원을 차단하고, 나무와 같은 절연체로 사고자를 분리한 뒤 응급조치를 실시하세요.\n\n출처:\n- 안전보건공단 – 발주 중대재해 사례 OPS 「A형 사다리에서 작업 중 감전되어 추락」\n- 고용노동부 – 「여름 산업현장 장마철 감전사고 주의」(안전보건공단 감전재해예방 3대 안전수칙)\n\n개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다.",
     "hashtags": [
       "#감전사고",
       "#추락사고",
@@ -117,9 +117,9 @@
         "publisher": "안전보건공단"
       },
       {
-        "title": "습한 여름… 감전·질식 사고 주의하세요!",
-        "url": "https://gonggam.korea.kr/newsContentView.es?mid=a10204000000&section_id=NCCD_CULTURE&content=NC002&code_cd=&nPage=365&b_list=9&news_id=EBC6D40105E04203E0540021F662AC5F",
-        "publisher": "대한민국 정부 정책주간지 K-공감"
+        "title": "여름 산업현장 장마철 감전사고 주의 (감전재해예방 3대 안전수칙)",
+        "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=5820",
+        "publisher": "고용노동부"
       }
     ],
     "legal_refs": []
@@ -136,13 +136,5 @@
       }
     ],
     "summary": "공단 사례 자료의 사실만 사용, 업체·피해자 특정 정보 없음, 부상 묘사 없는 그림"
-  },
-  "rule_issues": [
-    {
-      "severity": "major",
-      "where": "출처",
-      "problem": "URL 접속 불가(500): https://gonggam.korea.kr/newsContentView.es?mid=a10204000000&section_id=NCCD_CULTURE&content=NC002&code_cd=&nPage=365&b_list=9&news_id=EBC6D40105E04203E0540021F662AC5F",
-      "fix": "유효 출처로 교체"
-    }
-  ]
+  }
 }
