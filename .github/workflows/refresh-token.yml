@@ -1,0 +1,27 @@
+name: 인스타그램 토큰 자동 갱신
+
+# 토큰은 60일 후 만료되므로 매주 갱신하여 저장소 Secret 을 교체한다.
+# 필요: Secret GH_PAT (이 저장소의 Secrets 쓰기 권한이 있는 Fine-grained 토큰)
+on:
+  schedule:
+    - cron: "41 2 * * 1"    # 매주 월요일 11:41 KST
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: 토큰 갱신 및 Secret 교체
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "GH_PAT 미등록 — 수동 갱신 필요"; exit 1; fi
+          NEW=$(python -m src.upload refresh)
+          echo "::add-mask::$NEW"
+          gh secret set IG_ACCESS_TOKEN --body "$NEW" --repo "$GITHUB_REPOSITORY"
+          echo "갱신 완료"

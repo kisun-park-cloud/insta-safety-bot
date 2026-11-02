@@ -10,25 +10,29 @@
 | ② 생성 | `src/generate.py` | 조사자료 안의 내용만으로 카드뉴스 원고·캡션·해시태그 작성 |
 | ③ 검수 | `src/review.py` | (가) 규칙 점검: 금칙어, 업체명·전화번호, 글자수, 출처 URL 접속 확인 (나) 독립 AI 검수관: 사실·법령·기술 정확성, 개인정보, 표현, 저작권 6개 항목 채점 → 불합격 시 지적사항 반영해 재작성(최대 3회), 끝까지 불합격이면 **게시 보류** 후 알림 |
 | ④ 제작 | `src/render.py` | 카드뉴스 이미지 1080×1350 (표지 + 본문 4~7장 + 출처, 최대 10장) |
-| ⑤ 게시 | `src/upload.py` | Meta 공식 Instagram Graph API(캐러셀 = 여러 장 넘겨보기 게시물) |
+| ⑤ 게시 | `src/upload.py` | Meta 공식 Instagram API — 인스타그램 로그인 방식, 페이스북 페이지 불필요 (캐러셀 = 여러 장 넘겨보기 게시물) |
 | ⑥ 기록 | `data/history.json` | 게시 이력·점수(주제 중복 방지), 보류건은 `data/hold/` |
 
 요일별 주제: 월 전기지식 / 화 전기안전 / 수 산업안전 / 목 사고사례 / 금 전기안전 / 토 산업안전 / 일 사고사례 (`config.yaml`에서 변경)
 
 ## 2. 사전 준비
 
-1. **인스타그램 프로페셔널 계정**(비즈니스 또는 크리에이터) 전환 후 페이스북 페이지 연결
-2. **Meta 개발자 앱** 생성 → `instagram_basic`, `instagram_content_publish`, `pages_show_list` 권한 → 장기 액세스 토큰(60일) 및 IG 사용자 ID 발급
+1. **인스타그램 크리에이터 계정** 전환 (설정 → 계정 유형 및 도구 → 프로페셔널 계정 → 크리에이터). 페이스북 페이지는 필요 없음
+2. **Meta 개발자 앱** (developers.facebook.com) → 앱 만들기 → 사용 사례 "Instagram에서 메시지 및 콘텐츠 관리" →
+   "인스타그램 비즈니스 로그인으로 API 설정" → 앱 역할에 본인 인스타 계정을 Instagram 테스터로 추가하고 인스타그램에서 초대 수락 →
+   "액세스 토큰 생성"에서 계정 추가 → 장기 토큰(60일) 발급
+   (필요 권한: `instagram_business_basic`, `instagram_business_content_publish`)
 3. **Claude API 키** (console.anthropic.com)
-4. **GitHub 저장소**에 이 폴더를 올리고 Settings → Pages 에서 `main` 브랜치 `/docs` 폴더로 공개
-   (인스타그램은 공개 URL의 이미지를 직접 가져가므로 필요)
+4. **GitHub Pages**: Settings → Pages 에서 `main` 브랜치 `/docs` 폴더 공개 (인스타그램이 공개 URL의 이미지를 가져가므로 필요)
 
 ## 3. GitHub 설정
 
-- Settings → Secrets: `ANTHROPIC_API_KEY`, `IG_USER_ID`, `IG_ACCESS_TOKEN`, (선택) `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
+- Settings → Secrets: `ANTHROPIC_API_KEY`, `IG_ACCESS_TOKEN`, (권장) `GH_PAT`, (선택) `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
 - Settings → Variables: `PUBLIC_BASE_URL` = `https://<아이디>.github.io/<저장소명>`, `DRY_RUN` = `true`
+- `GH_PAT`: GitHub Settings → Developer settings → Fine-grained tokens → 이 저장소만 선택, 권한 **Secrets: Read and write** →
+  등록하면 `토큰 자동 갱신` 워크플로가 매주 인스타 토큰을 갱신해 만료를 막음
 
-매일 08:17(KST)에 자동 실행됩니다. Actions 탭에서 수동 실행도 가능합니다.
+매일 08:17(KST)에 자동 게시 실행, 매주 월요일 토큰 자동 갱신. Actions 탭에서 수동 실행도 가능합니다.
 
 ## 4. 권장 운영 단계
 
@@ -41,6 +45,7 @@
 ```bash
 pip install -r requirements.txt
 cp .env.example .env   # 값 입력 후
+python -m src.upload whoami                               # 토큰 정상 여부 확인
 set -a; . ./.env; set +a
 python -m src.pipeline --category accident_case          # 생성·검수·제작만 (DRY RUN)
 python -m src.pipeline --publish                          # DRY_RUN=false 일 때만 실제 게시
@@ -49,7 +54,7 @@ python -m src.pipeline --publish                          # DRY_RUN=false 일 �
 
 ## 6. 유의사항
 
-- **토큰 만료**: Meta 장기 토큰은 60일. `upload.refresh_token()`으로 만료 전 갱신 필요
+- **토큰 만료**: 인스타 장기 토큰은 60일. `GH_PAT` 등록 시 매주 자동 갱신, 미등록 시 50일마다 재발급 필요
 - **게시 한도**: Graph API는 계정당 24시간 게시 건수 제한이 있음(하루 1건 운영은 문제없음)
 - **저작권**: 공공누리 유형을 확인하여 출처표시 조건 준수. 기관 이미지는 사용하지 않고 직접 제작한 카드만 게시
 - **사고사례**: 기관 공개 사례만 사용, 업체·피해자 특정 정보는 자동 차단
