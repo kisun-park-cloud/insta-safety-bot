@@ -1,0 +1,45 @@
+name: 카드뉴스 제작·게시
+
+# Claude Code 예약 작업이 content/queue/ 에 원고를 푸시하면 자동 실행
+on:
+  push:
+    branches: [main]
+    paths: ["content/queue/*.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: insta-post
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: 한글 폰트(Noto Sans KR, OFL 라이선스)
+        run: |
+          mkdir -p fonts
+          curl -sfL -o fonts/NotoSansKR-Bold.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf"
+          cp fonts/NotoSansKR-Bold.ttf fonts/NotoSansKR-Regular.ttf
+      - run: pip install -r requirements.txt
+      - name: 제작·게시
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DRY_RUN: ${{ vars.DRY_RUN || 'true' }}   # 저장소 변수 DRY_RUN=false 일 때만 실제 게시
+        run: |
+          git config user.name "insta-bot"
+          git config user.email "insta-bot@users.noreply.github.com"
+          python -m src.publish_queue
+      - name: 기록 저장(이력·미리보기·보류함)
+        if: always()
+        run: |
+          git add -A content data docs/media
+          git diff --cached --quiet || (git commit -m "log: $(date +%F)" && git pull --rebase origin main && git push origin HEAD:main)

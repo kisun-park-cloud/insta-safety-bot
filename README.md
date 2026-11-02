@@ -1,71 +1,58 @@
 # 전기·산업안전 인스타그램 자동 운영 시스템 (개인 계정용)
 
-자료 수집 → 원고 생성 → 검수 → 카드뉴스 제작 → 인스타그램 게시 → 이력 기록까지 매일 자동으로 처리합니다.
+Claude 구독(Claude Code 예약 작업)으로 원고를 쓰고, GitHub Actions가 카드뉴스를 만들어 게시합니다. **Claude API 키·별도 결제 불필요.**
 
 ## 1. 처리 흐름
 
-| 단계 | 모듈 | 내용 |
-|---|---|---|
-| ① 수집 | `src/collect.py` | Claude 웹검색으로 **허용된 공공기관 도메인만** 조사(KOSHA·전기안전공사·법령정보센터·고용노동부 등). 사실·법령·출처 확보 |
-| ② 생성 | `src/generate.py` | 조사자료 안의 내용만으로 카드뉴스 원고·캡션·해시태그 작성 |
-| ③ 검수 | `src/review.py` | (가) 규칙 점검: 금칙어, 업체명·전화번호, 글자수, 출처 URL 접속 확인 (나) 독립 AI 검수관: 사실·법령·기술 정확성, 개인정보, 표현, 저작권 6개 항목 채점 → 불합격 시 지적사항 반영해 재작성(최대 3회), 끝까지 불합격이면 **게시 보류** 후 알림 |
-| ④ 제작 | `src/render.py` | 카드뉴스 이미지 1080×1350 (표지 + 본문 4~7장 + 출처, 최대 10장) |
-| ⑤ 게시 | `src/upload.py` | Meta 공식 Instagram API — 인스타그램 로그인 방식, 페이스북 페이지 불필요 (캐러셀 = 여러 장 넘겨보기 게시물) |
-| ⑥ 기록 | `data/history.json` | 게시 이력·점수(주제 중복 방지), 보류건은 `data/hold/` |
-
-요일별 주제: 월 전기지식 / 화 전기안전 / 수 산업안전 / 목 사고사례 / 금 전기안전 / 토 산업안전 / 일 사고사례 (`config.yaml`에서 변경)
-
-## 2. 사전 준비
-
-1. **인스타그램 크리에이터 계정** 전환 (설정 → 계정 유형 및 도구 → 프로페셔널 계정 → 크리에이터). 페이스북 페이지는 필요 없음
-2. **Meta 개발자 앱** (developers.facebook.com) → 앱 만들기 → 사용 사례 "Instagram에서 메시지 및 콘텐츠 관리" →
-   "인스타그램 비즈니스 로그인으로 API 설정" → 앱 역할에 본인 인스타 계정을 Instagram 테스터로 추가하고 인스타그램에서 초대 수락 →
-   "액세스 토큰 생성"에서 계정 추가 → 장기 토큰(60일) 발급
-   (필요 권한: `instagram_business_basic`, `instagram_business_content_publish`)
-3. **Claude API 키** (console.anthropic.com)
-4. **GitHub Pages**: Settings → Pages 에서 `main` 브랜치 `/docs` 폴더 공개 (인스타그램이 공개 URL의 이미지를 가져가므로 필요)
-
-## 3. GitHub 설정
-
-- Settings → Secrets: `ANTHROPIC_API_KEY`, `IG_ACCESS_TOKEN`, (권장) `GH_PAT`, (선택) `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
-- Settings → Variables: `PUBLIC_BASE_URL` = `https://<아이디>.github.io/<저장소명>`, `DRY_RUN` = `true`
-- `GH_PAT`: GitHub Settings → Developer settings → Fine-grained tokens → 이 저장소만 선택, 권한 **Secrets: Read and write** →
-  등록하면 `토큰 자동 갱신` 워크플로가 매주 인스타 토큰을 갱신해 만료를 막음
-
-매일 08:17(KST)에 자동 게시 실행, 매주 월요일 토큰 자동 갱신. Actions 탭에서 수동 실행도 가능합니다.
-
-## 4. 권장 운영 단계
-
-1. **시험 운영(1~2주)**: `DRY_RUN=true` 상태로 매일 생성만 하고, Actions 산출물(output)과 검수 점수를 확인
-2. 결과물 품질이 안정되면 `DRY_RUN=false` 로 변경 → 실제 자동 게시 시작
-3. 텔레그램 알림으로 게시·보류 결과를 매일 확인, 보류건은 `data/hold/`에서 검토
-
-## 5. 로컬 실행
-
-```bash
-pip install -r requirements.txt
-cp .env.example .env   # 값 입력 후
-python -m src.upload whoami                               # 토큰 정상 여부 확인
-set -a; . ./.env; set +a
-python -m src.pipeline --category accident_case          # 생성·검수·제작만 (DRY RUN)
-python -m src.pipeline --publish                          # DRY_RUN=false 일 때만 실제 게시
 ```
-※ 실제 게시는 `--publish` 와 `DRY_RUN=false` 가 **모두** 충족돼야 실행됩니다(이중 안전장치).
+[매일 07:47 Claude Code 예약 작업]  prompts/daily.md 지침에 따라
+  ① 공공기관 자료 조사 → ② 원고 작성 → ③ 독립 검수(불합격 시 재작성, 최대 3회)
+  → content/queue/YYYYMMDD.json 푸시
+        ↓ (푸시되면 자동 실행)
+[GitHub Actions: 카드뉴스 제작·게시]
+  ④ 규칙 검수(금칙어·업체명·면책문구·출처 URL 등) → ⑤ 카드 이미지 제작
+  → ⑥ 인스타그램 게시(DRY_RUN=false 일 때만) → ⑦ 이력 기록
+```
 
-## 6. 유의사항
+| 위치 | 내용 |
+|---|---|
+| `prompts/daily.md` | Claude가 매일 따르는 작성·검수 지침 (수정하면 다음 날부터 반영) |
+| `config.yaml` | 요일별 주제, 허용 자료원, 금칙어, 디자인 |
+| `content/queue/` | 게시 대기 원고 → 처리 후 `content/published/` 로 이동 |
+| `data/hold/` | 검수 불합격으로 보류된 원고 |
+| `docs/media/` | 카드 이미지 (시험운영 중에는 미리보기) |
+| `data/history.json` | 게시 이력 (주제 중복 방지) |
 
-- **토큰 만료**: 인스타 장기 토큰은 60일. `GH_PAT` 등록 시 매주 자동 갱신, 미등록 시 50일마다 재발급 필요
-- **게시 한도**: Graph API는 계정당 24시간 게시 건수 제한이 있음(하루 1건 운영은 문제없음)
-- **저작권**: 공공누리 유형을 확인하여 출처표시 조건 준수. 기관 이미지는 사용하지 않고 직접 제작한 카드만 게시
-- **사고사례**: 기관 공개 사례만 사용, 업체·피해자 특정 정보는 자동 차단
-- **비용(예상)**: Claude API 게시물 1건당 약 수백~1천 원(웹검색·재작성 횟수에 따라 변동), GitHub Actions·Pages는 무료 범위
+요일별 주제: 월 전기지식 / 화 전기안전 / 수 산업안전 / 목 사고사례 / 금 전기안전 / 토 산업안전 / 일 사고사례
 
-## 7. 공무원 개인 계정 운영 시 유의사항
+## 2. 설정
 
-자동 검수(G항목)와 면책문구로 아래 사항을 기본 반영했으나, 운영자 본인 확인이 필요합니다.
+1. **GitHub Pages**: Settings → Pages → `main` 브랜치 `/docs` 폴더
+2. **Settings → Secrets and variables → Actions**
+   - Secrets: `IG_ACCESS_TOKEN`, (권장) `GH_PAT`, (선택) `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
+   - Variables: `PUBLIC_BASE_URL` = `https://kisun-park-cloud.github.io/insta-safety-bot`, `DRY_RUN` = `true`
+3. **인스타그램 토큰**: 크리에이터 계정 → Meta 개발자 앱(Instagram API, Unified login) → 액세스 토큰 생성
+   (권한 `instagram_business_basic`, `instagram_business_content_publish`, 페이스북 페이지 불필요)
+4. **GH_PAT**: GitHub → Settings → Developer settings → Fine-grained tokens → 이 저장소만, 권한 Secrets: Read and write
+   → 매주 인스타 토큰 자동 갱신
 
-- **영리활동 금지·겸직허가**(「국가공무원법」 제64조): 광고·협찬·수익화(인스타그램 수익화 기능 포함)를 하려면 사전에 겸직허가 대상인지 확인. 기본 설정은 광고성 문구를 금칙어로 차단
-- **비밀엄수**(제60조): 업무상 알게 된 비공개 사고·점검 정보는 사용 금지 — 수집 단계에서 공공기관 공개자료만 사용
-- **정치적 중립**(제65조)·**품위유지**(제63조): 정책 찬반·정치적 표현은 AI 검수에서 불합격 처리
-- **기관과의 구분**: 프로필 소개에 "개인 계정, 소속 기관과 무관" 명시 권장. 기관 로고·명칭·직함 사용 자제
-- 소속 기관에 개인 SNS 관련 내부 지침이 있으면 그에 따름
+## 3. 운영
+
+- 시험운영(`DRY_RUN=true`): 매일 원고·이미지가 만들어져 `docs/media/날짜/`에 저장됨 → GitHub에서 확인
+- 품질이 안정되면 `DRY_RUN=false` → 다음 원고부터 실제 게시
+- 예약 작업 중지·시간 변경: claude.ai/code 의 예약 작업(Scheduled tasks) 화면
+- 원고 수동 재처리: Actions → 카드뉴스 제작·게시 → Run workflow
+
+## 4. 유의사항
+
+- Claude 구독 사용량 한도를 함께 사용 (하루 1건 기준)
+- 인스타 토큰 60일 만료 → `GH_PAT` 등록 시 매주 자동 갱신
+- 저작권: 공공누리 출처표시 준수, 기관 이미지 미사용(직접 제작 카드만)
+- 사고사례: 기관 공개 사례만, 업체·피해자 특정 정보 자동 차단
+
+## 5. 공무원 개인 계정 운영 시 유의사항
+
+- **영리활동 금지·겸직허가**(「국가공무원법」 제64조): 광고·협찬·수익화 시 사전 확인. 광고성 문구는 금칙어로 차단
+- **비밀엄수**(제60조): 업무상 알게 된 비공개 정보 사용 금지 — 공공기관 공개자료만 사용
+- **정치적 중립**(제65조)·**품위유지**(제63조): 정책 찬반·정치적 표현은 검수에서 불합격
+- **기관과의 구분**: 프로필에 "개인 계정, 소속 기관과 무관" 명시, 기관 로고·명칭·직함 사용 자제

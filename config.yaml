@@ -4,8 +4,6 @@ account:
   handle: "@your_account"
   disclaimer: "개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다."
 
-model: claude-opus-5-5
-
 # 요일별 주제 순환 (0=월 … 6=일). 하루 1건 게시 기준
 schedule:
   0: electrical_knowledge
@@ -36,7 +34,7 @@ categories:
 
 # ── 자료 수집원 (공신력 있는 공개 자료 우선) ────────
 sources:
-  allowed_domains:          # Claude 웹검색 허용 도메인
+  allowed_domains:          # 자료조사 허용 도메인(공공기관)
     - kosha.or.kr           # 한국산업안전보건공단
     - kesco.or.kr           # 한국전기안전공사
     - law.go.kr             # 국가법령정보센터
@@ -49,10 +47,9 @@ sources:
 # ── 검수 기준 ──────────────────────────────────────
 review:
   min_score: 85             # AI 검수 점수 하한 (100점 만점)
-  max_attempts: 3           # 불합격 시 재생성 횟수
+  max_attempts: 3           # 불합격 시 재작성 횟수
   banned_words: ["무조건 안전", "100% 예방", "사망자 실명", "협찬", "광고", "구매 링크", "할인"]
   require_sources: 1        # 최소 출처 개수
-  hold_on_fail: true        # 끝까지 불합격이면 게시하지 않고 보류함(data/hold)에 저장
 
 render:
   width: 1080

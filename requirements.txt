@@ -1,6 +1,4 @@
-anthropic>=2.0
 pydantic>=2.6
 pillow>=10.0
 pyyaml>=6.0
 requests>=2.31
-feedparser>=6.0
