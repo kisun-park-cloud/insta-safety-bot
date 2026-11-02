@@ -35,15 +35,15 @@ def rule_check(cfg: dict, post: Post, check_urls: bool = True) -> list[Issue]:
         issues.append(Issue(severity="critical", where="캡션", problem="캡션+해시태그 2,200자 초과", fix="축약"))
     if len(post.hashtags) > 30:
         issues.append(Issue(severity="critical", where="해시태그", problem="30개 초과", fix="줄이기"))
-    if not 3 <= len(post.slides) <= 8:
-        issues.append(Issue(severity="critical", where="슬라이드", problem="본문 3~8장이어야 함(표지·출처 포함 최대 10장)", fix="조정"))
+    if len(post.slides) != 7:
+        issues.append(Issue(severity="critical", where="슬라이드", problem=f"본문은 정확히 7장이어야 함(현재 {len(post.slides)}장, 표지·참고자료 포함 총 9장)", fix="7장으로 조정"))
     if re.search(r"\(주\)|주식회사|㈜|유한회사", text):
         issues.append(Issue(severity="critical", where="본문", problem="업체명 의심 표현", fix="익명화"))
     if re.search(r"01[016789]-?\d{3,4}-?\d{4}", text):
         issues.append(Issue(severity="critical", where="본문", problem="전화번호 포함", fix="삭제"))
     for s in post.slides:
-        if len(s.heading) > 22 or any(len(b) > 40 for b in s.body) or len(s.body) > 3:
-            issues.append(Issue(severity="major", where=s.heading, problem="글자 수·줄 수 초과(제목 22자, 요점 3개·각 40자)", fix="축약"))
+        if len(s.heading) > 16 or any(len(b) > 40 for b in s.body) or len(s.body) > 3:
+            issues.append(Issue(severity="major", where=s.heading, problem="글자 수·줄 수 초과(제목 16자, 요점 3개·각 40자)", fix="축약"))
     svgs = [("표지", post.cover_svg)] + [(s.heading, s.illustration_svg) for s in post.slides]
     for where, svg in svgs:
         if not svg:

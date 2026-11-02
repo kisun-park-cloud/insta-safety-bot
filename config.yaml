@@ -52,13 +52,5 @@ review:
   require_sources: 1        # 최소 출처 개수
 
 render:
-  width: 1080
-  height: 1350
+  # 카드 크기 1080×1350(4:5), 총 9장. 디자인(색상·글꼴 배치)은 src/render.py 의 THEME·CSS
   font: fonts/NotoSansKR-Bold.ttf
-  font_regular: fonts/NotoSansKR-Regular.ttf
-  colors:
-    bg: "#0F172A"
-    accent: "#FACC15"
-    text: "#F8FAFC"
-    sub: "#94A3B8"
-    panel: "#1E293B"   # 일러스트 바탕

@@ -1,9 +1,6 @@
 """Claude가 그린 SVG 일러스트 검증·변환."""
-import io
 import re
 import xml.etree.ElementTree as ET
-
-from PIL import Image
 
 MAX_BYTES = 40_000
 FORBIDDEN = {"script", "image", "foreignObject", "iframe", "use", "a", "style", "text", "textPath", "tspan"}
@@ -31,11 +28,3 @@ def validate(svg: str) -> str | None:
             if k.split("}")[-1] == "href" or re.search(r"url\((?!#)", v) or k.startswith("on"):
                 return f"외부 참조/이벤트 속성 금지: {k}"
     return None
-
-
-def to_image(svg: str, width: int, height: int) -> Image.Image | None:
-    if not svg or validate(svg):
-        return None
-    import cairosvg
-    png = cairosvg.svg2png(bytestring=svg.encode(), output_width=width, output_height=height)
-    return Image.open(io.BytesIO(png)).convert("RGBA")

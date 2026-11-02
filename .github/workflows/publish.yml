@@ -25,8 +25,7 @@ jobs:
           mkdir -p fonts
           curl -sfL -o fonts/NotoSansKR-Bold.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf"
           cp fonts/NotoSansKR-Bold.ttf fonts/NotoSansKR-Regular.ttf
-      - run: (dpkg -s libcairo2 >/dev/null 2>&1) || (sudo apt-get update -qq && sudo apt-get install -y -qq libcairo2)
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
       - name: 제작·게시
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
