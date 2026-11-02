@@ -1,0 +1,66 @@
+# ── 계정 운영 기본 설정 ─────────────────────────────
+account:
+  name: "전기·산업안전 알리미"
+  handle: "@your_account"
+  disclaimer: "개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다."
+
+model: claude-opus-5-5
+
+# 요일별 주제 순환 (0=월 … 6=일). 하루 1건 게시 기준
+schedule:
+  0: electrical_knowledge
+  1: electrical_safety
+  2: industrial_safety
+  3: accident_case
+  4: electrical_safety
+  5: industrial_safety
+  6: accident_case
+
+categories:
+  electrical_knowledge:
+    label: "AI 전기지식"
+    format: carousel
+    brief: "KEC(한국전기설비규정), 접지·누전·차단기·전선 허용전류 등 실무 전기 기초 지식을 쉽게 설명"
+  electrical_safety:
+    label: "전기안전"
+    format: carousel
+    brief: "감전·아크·전기화재 예방, 정전작업 절차(LOTO), 활선 근접작업 안전수칙"
+  industrial_safety:
+    label: "산업안전"
+    format: carousel
+    brief: "산업안전보건법·중대재해처벌법 관련 현장 안전수칙, 보호구, 위험성평가"
+  accident_case:
+    label: "공사현장 사고사례"
+    format: carousel
+    brief: "공공기관이 공개한 재해사례를 바탕으로 사고 개요 → 원인 → 예방대책 순서로 정리"
+
+# ── 자료 수집원 (공신력 있는 공개 자료 우선) ────────
+sources:
+  allowed_domains:          # Claude 웹검색 허용 도메인
+    - kosha.or.kr           # 한국산업안전보건공단
+    - kesco.or.kr           # 한국전기안전공사
+    - law.go.kr             # 국가법령정보센터
+    - moel.go.kr            # 고용노동부
+    - korea.kr              # 정책브리핑
+    - kepco.co.kr
+    - safetyreport.go.kr
+  rss: []                   # 추가 RSS 주소(선택)
+
+# ── 검수 기준 ──────────────────────────────────────
+review:
+  min_score: 85             # AI 검수 점수 하한 (100점 만점)
+  max_attempts: 3           # 불합격 시 재생성 횟수
+  banned_words: ["무조건 안전", "100% 예방", "사망자 실명", "협찬", "광고", "구매 링크", "할인"]
+  require_sources: 1        # 최소 출처 개수
+  hold_on_fail: true        # 끝까지 불합격이면 게시하지 않고 보류함(data/hold)에 저장
+
+render:
+  width: 1080
+  height: 1350
+  font: fonts/NotoSansKR-Bold.ttf
+  font_regular: fonts/NotoSansKR-Regular.ttf
+  colors:
+    bg: "#0F172A"
+    accent: "#FACC15"
+    text: "#F8FAFC"
+    sub: "#94A3B8"

@@ -1,0 +1,60 @@
+name: 인스타그램 자동 게시
+
+on:
+  schedule:
+    - cron: "17 23 * * *"   # 매일 08:17 KST (UTC 23:17)
+  workflow_dispatch:
+    inputs:
+      category:
+        description: "분야 지정(비우면 요일별 자동)"
+        required: false
+      publish:
+        description: "실제 게시 여부"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency: insta-post
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: 한글 폰트(Noto Sans KR, OFL 라이선스)
+        run: |
+          mkdir -p fonts
+          curl -sL -o fonts/NotoSansKR.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf"
+          cp fonts/NotoSansKR.ttf fonts/NotoSansKR-Bold.ttf
+          cp fonts/NotoSansKR.ttf fonts/NotoSansKR-Regular.ttf
+      - run: pip install -r requirements.txt
+      - name: 파이프라인 실행
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # 저장소 변수 DRY_RUN=false 로 바꿔야 실제 게시 (이중 안전장치)
+          DRY_RUN: ${{ vars.DRY_RUN || 'true' }}
+        run: |
+          git config user.name "insta-bot"
+          git config user.email "insta-bot@users.noreply.github.com"
+          ARGS=""
+          [ -n "${{ inputs.category }}" ] && ARGS="$ARGS --category ${{ inputs.category }}"
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.publish }}" = "true" ]; then ARGS="$ARGS --publish"; fi
+          python -m src.pipeline $ARGS
+      - name: 기록 저장(이력·보류함)
+        if: always()
+        run: |
+          git add data/ || true
+          git diff --cached --quiet || (git commit -m "log: $(date +%F)" && git pull --rebase && git push)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: output, path: output/ }
