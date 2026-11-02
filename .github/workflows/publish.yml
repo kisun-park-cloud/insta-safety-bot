@@ -25,6 +25,7 @@ jobs:
           mkdir -p fonts
           curl -sfL -o fonts/NotoSansKR-Bold.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf"
           cp fonts/NotoSansKR-Bold.ttf fonts/NotoSansKR-Regular.ttf
+      - run: sudo apt-get install -y libcairo2 >/dev/null
       - run: pip install -r requirements.txt
       - name: 제작·게시
         env:

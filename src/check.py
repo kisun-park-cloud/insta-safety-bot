@@ -9,6 +9,7 @@ import requests
 import yaml
 
 from .models import Issue, Post
+from . import illust
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -41,8 +42,14 @@ def rule_check(cfg: dict, post: Post, check_urls: bool = True) -> list[Issue]:
     if re.search(r"01[016789]-?\d{3,4}-?\d{4}", text):
         issues.append(Issue(severity="critical", where="본문", problem="전화번호 포함", fix="삭제"))
     for s in post.slides:
-        if len(s.heading) > 22 or any(len(b) > 50 for b in s.body) or len(s.body) > 4:
-            issues.append(Issue(severity="major", where=s.heading, problem="글자 수·줄 수 초과(제목 22자, 요점 4개·각 50자)", fix="축약"))
+        if len(s.heading) > 22 or any(len(b) > 40 for b in s.body) or len(s.body) > 3:
+            issues.append(Issue(severity="major", where=s.heading, problem="글자 수·줄 수 초과(제목 22자, 요점 3개·각 40자)", fix="축약"))
+    svgs = [("표지", post.cover_svg)] + [(s.heading, s.illustration_svg) for s in post.slides]
+    for where, svg in svgs:
+        if not svg:
+            issues.append(Issue(severity="minor", where=where, problem="일러스트 없음", fix="SVG 일러스트 추가"))
+        elif (err := illust.validate(svg)):
+            issues.append(Issue(severity="major", where=where, problem=f"일러스트 오류: {err}", fix="SVG 수정"))
     if check_urls:
         for s in post.sources:
             try:

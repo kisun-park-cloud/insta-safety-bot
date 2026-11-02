@@ -32,13 +32,15 @@
     "category": "electrical_knowledge",
     "title": "누전차단기, 한 달에 한 번",
     "subtitle": "30mA·0.03초 기준과 시험버튼 점검",
+    "cover_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\">\n  <circle cx=\"660\" cy=\"250\" r=\"190\" fill=\"#273449\"/>\n  <!-- 분전반 -->\n  <rect x=\"520\" y=\"90\" width=\"260\" height=\"320\" rx=\"18\" fill=\"#CBD5E1\"/>\n  <rect x=\"540\" y=\"110\" width=\"220\" height=\"280\" rx=\"10\" fill=\"#E2E8F0\"/>\n  <rect x=\"565\" y=\"140\" width=\"70\" height=\"120\" rx=\"8\" fill=\"#334155\"/>\n  <rect x=\"585\" y=\"160\" width=\"30\" height=\"45\" rx=\"4\" fill=\"#F8FAFC\"/>\n  <circle cx=\"600\" cy=\"232\" r=\"11\" fill=\"#EF4444\"/>\n  <rect x=\"660\" y=\"140\" width=\"70\" height=\"120\" rx=\"8\" fill=\"#334155\"/>\n  <rect x=\"680\" y=\"160\" width=\"30\" height=\"45\" rx=\"4\" fill=\"#F8FAFC\"/>\n  <circle cx=\"695\" cy=\"232\" r=\"11\" fill=\"#22C55E\"/>\n  <rect x=\"565\" y=\"290\" width=\"165\" height=\"70\" rx=\"8\" fill=\"#94A3B8\"/>\n  <!-- 번개 배지 -->\n  <circle cx=\"770\" cy=\"95\" r=\"42\" fill=\"#FACC15\"/>\n  <path d=\"M778 62 L752 102 L770 102 L760 130 L790 88 L772 88 Z\" fill=\"#0F172A\"/>\n  <!-- 작업자 -->\n  <ellipse cx=\"300\" cy=\"455\" rx=\"150\" ry=\"16\" fill=\"#0B1222\"/>\n  <rect x=\"245\" y=\"300\" width=\"45\" height=\"150\" rx=\"18\" fill=\"#1E40AF\"/>\n  <rect x=\"300\" y=\"300\" width=\"45\" height=\"150\" rx=\"18\" fill=\"#1E3A8A\"/>\n  <path d=\"M225 190 Q295 160 365 190 L375 320 L215 320 Z\" fill=\"#F97316\"/>\n  <rect x=\"232\" y=\"235\" width=\"126\" height=\"14\" fill=\"#FDE68A\"/>\n  <rect x=\"232\" y=\"275\" width=\"126\" height=\"14\" fill=\"#FDE68A\"/>\n  <circle cx=\"295\" cy=\"135\" r=\"48\" fill=\"#F2C6A0\"/>\n  <path d=\"M243 128 Q245 70 295 68 Q345 70 347 128 Z\" fill=\"#FACC15\"/>\n  <rect x=\"235\" y=\"122\" width=\"120\" height=\"14\" rx=\"7\" fill=\"#EAB308\"/>\n  <circle cx=\"280\" cy=\"142\" r=\"5\" fill=\"#1F2937\"/>\n  <circle cx=\"312\" cy=\"142\" r=\"5\" fill=\"#1F2937\"/>\n  <path d=\"M282 160 Q296 172 310 160\" stroke=\"#1F2937\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>\n  <!-- 팔: 시험버튼 누르기 -->\n  <path d=\"M350 205 Q450 215 585 232\" stroke=\"#F97316\" stroke-width=\"34\" fill=\"none\" stroke-linecap=\"round\"/>\n  <circle cx=\"588\" cy=\"232\" r=\"19\" fill=\"#F2C6A0\"/>\n  <path d=\"M232 210 Q190 260 215 310\" stroke=\"#F97316\" stroke-width=\"32\" fill=\"none\" stroke-linecap=\"round\"/>\n  <!-- 누르는 효과선 -->\n  <path d=\"M615 205 L640 190 M620 232 L650 232 M615 259 L640 274\" stroke=\"#FACC15\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n</svg>\n",
     "slides": [
       {
         "heading": "누전차단기의 역할",
         "body": [
           "감전과 전기화재 예방을 위해 설치하는 장치",
           "사업장은 법령으로 설치 대상이 정해져 있음"
-        ]
+        ],
+        "illustration_svg": ""
       },
       {
         "heading": "성능기준 30mA·0.03초",
@@ -47,7 +49,8 @@
           "작동시간 0.03초 이내",
           "정격전부하전류 50A 이상 기기는 예외 있음",
           "예외 시 200mA 이하·0.1초 이내 가능"
-        ]
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\">\n  <!-- 스톱워치 -->\n  <circle cx=\"250\" cy=\"260\" r=\"160\" fill=\"#273449\"/>\n  <rect x=\"225\" y=\"70\" width=\"50\" height=\"34\" rx=\"8\" fill=\"#94A3B8\"/>\n  <circle cx=\"250\" cy=\"260\" r=\"130\" fill=\"#F8FAFC\"/>\n  <circle cx=\"250\" cy=\"260\" r=\"130\" fill=\"none\" stroke=\"#38BDF8\" stroke-width=\"14\"/>\n  <path d=\"M250 260 L250 150 A110 110 0 0 1 262 151 Z\" fill=\"#FACC15\"/>\n  <path d=\"M250 260 L250 165\" stroke=\"#0F172A\" stroke-width=\"8\" stroke-linecap=\"round\"/>\n  <circle cx=\"250\" cy=\"260\" r=\"12\" fill=\"#0F172A\"/>\n  <g stroke=\"#64748B\" stroke-width=\"6\" stroke-linecap=\"round\">\n    <path d=\"M250 142 L250 156\"/><path d=\"M368 260 L354 260\"/><path d=\"M250 378 L250 364\"/><path d=\"M132 260 L146 260\"/>\n  </g>\n  <!-- 전류 화살표 + 차단 -->\n  <path d=\"M440 260 L560 260\" stroke=\"#FACC15\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-dasharray=\"4 26\"/>\n  <path d=\"M545 232 L585 260 L545 288\" fill=\"none\" stroke=\"#FACC15\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <!-- 차단기 OFF -->\n  <rect x=\"620\" y=\"110\" width=\"180\" height=\"300\" rx=\"20\" fill=\"#CBD5E1\"/>\n  <rect x=\"650\" y=\"140\" width=\"120\" height=\"170\" rx=\"12\" fill=\"#334155\"/>\n  <rect x=\"690\" y=\"230\" width=\"40\" height=\"60\" rx=\"6\" fill=\"#F8FAFC\"/>\n  <circle cx=\"710\" cy=\"350\" r=\"18\" fill=\"#22C55E\"/>\n  <circle cx=\"800\" cy=\"110\" r=\"44\" fill=\"#22C55E\"/>\n  <path d=\"M780 110 L795 126 L823 94\" stroke=\"#F8FAFC\" stroke-width=\"10\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
       },
       {
         "heading": "현장 설치 대상",
@@ -56,7 +59,8 @@
           "물기 있는 습윤장소의 저압 전기기기",
           "철판·철골 위 등에서 쓰는 이동형·휴대형 기기",
           "임시배선 장소의 이동형·휴대형 기기"
-        ]
+        ],
+        "illustration_svg": ""
       },
       {
         "heading": "점검·접속 요건",
@@ -64,7 +68,8 @@
           "사업주는 사용 전 작동상태를 점검",
           "이상이 있으면 즉시 보수하거나 교환",
           "분기회로 또는 기기마다 누전차단기 접속"
-        ]
+        ],
+        "illustration_svg": ""
       },
       {
         "heading": "시험버튼 누르는 법",
@@ -72,7 +77,8 @@
           "정부 안내(2007): 한 달에 1회 정도 시험",
           "빨강·초록색 시험버튼을 눌러 본다",
           "스위치가 '탁' 하고 내려오면 정상"
-        ]
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\">\n  <rect x=\"80\" y=\"40\" width=\"740\" height=\"400\" rx=\"30\" fill=\"#273449\"/>\n  <!-- 달력 -->\n  <rect x=\"130\" y=\"90\" width=\"230\" height=\"250\" rx=\"16\" fill=\"#F8FAFC\"/>\n  <rect x=\"130\" y=\"90\" width=\"230\" height=\"60\" rx=\"16\" fill=\"#EF4444\"/>\n  <rect x=\"130\" y=\"130\" width=\"230\" height=\"20\" fill=\"#EF4444\"/>\n  <circle cx=\"180\" cy=\"85\" r=\"10\" fill=\"#94A3B8\"/><circle cx=\"310\" cy=\"85\" r=\"10\" fill=\"#94A3B8\"/>\n  <g fill=\"#CBD5E1\">\n    <rect x=\"155\" y=\"175\" width=\"34\" height=\"30\" rx=\"5\"/><rect x=\"200\" y=\"175\" width=\"34\" height=\"30\" rx=\"5\"/><rect x=\"245\" y=\"175\" width=\"34\" height=\"30\" rx=\"5\"/><rect x=\"290\" y=\"175\" width=\"34\" height=\"30\" rx=\"5\"/>\n    <rect x=\"155\" y=\"220\" width=\"34\" height=\"30\" rx=\"5\"/><rect x=\"245\" y=\"220\" width=\"34\" height=\"30\" rx=\"5\"/><rect x=\"290\" y=\"220\" width=\"34\" height=\"30\" rx=\"5\"/>\n    <rect x=\"155\" y=\"265\" width=\"34\" height=\"30\" rx=\"5\"/><rect x=\"200\" y=\"265\" width=\"34\" height=\"30\" rx=\"5\"/><rect x=\"245\" y=\"265\" width=\"34\" height=\"30\" rx=\"5\"/>\n  </g>\n  <circle cx=\"217\" cy=\"235\" r=\"30\" fill=\"none\" stroke=\"#FACC15\" stroke-width=\"8\"/>\n  <!-- 차단기 + 손가락 -->\n  <rect x=\"470\" y=\"90\" width=\"200\" height=\"300\" rx=\"20\" fill=\"#CBD5E1\"/>\n  <rect x=\"500\" y=\"120\" width=\"140\" height=\"190\" rx=\"12\" fill=\"#334155\"/>\n  <rect x=\"550\" y=\"150\" width=\"40\" height=\"70\" rx=\"6\" fill=\"#F8FAFC\"/>\n  <path d=\"M570 240 L570 290\" stroke=\"#F8FAFC\" stroke-width=\"6\" stroke-dasharray=\"8 8\"/>\n  <path d=\"M555 280 L570 298 L585 280\" fill=\"none\" stroke=\"#F8FAFC\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n  <circle cx=\"530\" cy=\"345\" r=\"20\" fill=\"#EF4444\"/>\n  <path d=\"M650 420 Q600 400 560 365 L548 352 Q540 340 552 334 Q562 330 572 342 L590 360 L600 300 Q604 286 616 288 Q628 292 626 306 L622 340 L700 350 Q730 356 730 390 L730 440 Z\" fill=\"#F2C6A0\"/>\n  <path d=\"M500 345 L470 330 M500 360 L462 360 M500 375 L470 390\" stroke=\"#FACC15\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n</svg>\n"
       },
       {
         "heading": "이상 신호와 조치",
@@ -80,7 +86,8 @@
           "눌러도 스위치가 내려오지 않으면 이상",
           "내려간 스위치가 다시 안 올라가도 이상",
           "전기공사업체에 의뢰해 교체"
-        ]
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\">\n  <!-- 고장난 차단기 -->\n  <rect x=\"120\" y=\"90\" width=\"200\" height=\"300\" rx=\"20\" fill=\"#CBD5E1\"/>\n  <rect x=\"150\" y=\"120\" width=\"140\" height=\"190\" rx=\"12\" fill=\"#334155\"/>\n  <rect x=\"200\" y=\"150\" width=\"40\" height=\"70\" rx=\"6\" fill=\"#F8FAFC\"/>\n  <circle cx=\"180\" cy=\"345\" r=\"20\" fill=\"#EF4444\"/>\n  <circle cx=\"320\" cy=\"100\" r=\"46\" fill=\"#EF4444\"/>\n  <path d=\"M300 80 L340 120 M340 80 L300 120\" stroke=\"#F8FAFC\" stroke-width=\"11\" stroke-linecap=\"round\"/>\n  <!-- 화살표 -->\n  <path d=\"M380 250 L500 250\" stroke=\"#FACC15\" stroke-width=\"14\" stroke-linecap=\"round\"/>\n  <path d=\"M480 220 L520 250 L480 280\" fill=\"none\" stroke=\"#FACC15\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <!-- 전문가(기술자) -->\n  <ellipse cx=\"700\" cy=\"455\" rx=\"130\" ry=\"14\" fill=\"#0B1222\"/>\n  <rect x=\"650\" y=\"310\" width=\"40\" height=\"140\" rx=\"16\" fill=\"#1E40AF\"/>\n  <rect x=\"700\" y=\"310\" width=\"40\" height=\"140\" rx=\"16\" fill=\"#1E3A8A\"/>\n  <path d=\"M630 205 Q695 178 760 205 L768 330 L622 330 Z\" fill=\"#38BDF8\"/>\n  <circle cx=\"695\" cy=\"150\" r=\"46\" fill=\"#F2C6A0\"/>\n  <path d=\"M645 145 Q647 88 695 86 Q743 88 745 145 Z\" fill=\"#F8FAFC\"/>\n  <rect x=\"638\" y=\"139\" width=\"114\" height=\"13\" rx=\"6\" fill=\"#E2E8F0\"/>\n  <circle cx=\"681\" cy=\"158\" r=\"5\" fill=\"#1F2937\"/><circle cx=\"711\" cy=\"158\" r=\"5\" fill=\"#1F2937\"/>\n  <path d=\"M682 176 Q696 186 710 176\" stroke=\"#1F2937\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>\n  <!-- 새 차단기 들고 있음 -->\n  <rect x=\"770\" y=\"225\" width=\"70\" height=\"100\" rx=\"10\" fill=\"#CBD5E1\"/>\n  <rect x=\"785\" y=\"240\" width=\"40\" height=\"55\" rx=\"6\" fill=\"#334155\"/>\n  <circle cx=\"805\" cy=\"310\" r=\"7\" fill=\"#22C55E\"/>\n  <path d=\"M755 230 Q775 260 775 270\" stroke=\"#38BDF8\" stroke-width=\"28\" fill=\"none\" stroke-linecap=\"round\"/>\n  <path d=\"M635 225 Q605 270 625 320\" stroke=\"#38BDF8\" stroke-width=\"28\" fill=\"none\" stroke-linecap=\"round\"/>\n  <!-- 렌치 -->\n  <path d=\"M590 330 L620 300\" stroke=\"#94A3B8\" stroke-width=\"14\" stroke-linecap=\"round\"/>\n  <circle cx=\"584\" cy=\"336\" r=\"16\" fill=\"none\" stroke=\"#94A3B8\" stroke-width=\"10\"/>\n</svg>\n"
       },
       {
         "heading": "관련 법령",
@@ -88,7 +95,8 @@
           "산업안전보건기준에 관한 규칙 제304조",
           "제1항 설치대상·제4항 점검·제5항 기준",
           "원문은 국가법령정보센터에서 확인"
-        ]
+        ],
+        "illustration_svg": ""
       }
     ],
     "caption": "누전차단기, 마지막으로 시험해 본 게 언제인가요?\n\n누전차단기는 감전과 전기화재를 예방하기 위해 설치하는 장치입니다. 산업안전보건기준에 관한 규칙 제304조는 사업장에서 대지전압 150V 초과 이동형·휴대형 기기, 습윤장소의 저압 기기, 철판·철골 위 등 도전성이 높은 장소나 임시배선 장소에서 쓰는 이동형·휴대형 기기에 감전방지용 누전차단기를 설치하도록 하고 있습니다.\n\n성능기준은 정격감도전류 30mA 이하, 작동시간 0.03초 이내입니다. 정격전부하전류가 50A 이상인 기기는 오작동 방지를 위해 200mA 이하, 0.1초 이내로 할 수 있습니다. 또한 분기회로 또는 기기마다 누전차단기를 접속하고, 사용 전에 작동상태를 점검하고, 이상이 있으면 즉시 보수하거나 교환해야 합니다.\n\n2007년 정부 보도자료에서는 누전차단기를 한 달에 1회 정도 시험하도록 권하고 있습니다. 빨강(초록)색 시험버튼을 눌러 스위치가 '탁' 내려오면 정상이고, 내려오지 않거나 내려간 스위치가 다시 올라가지 않으면 전기공사업체에 의뢰해 교체하세요. 시험버튼을 누르면 해당 회로의 전기가 끊기니 참고하세요.\n\n※ 적용 제외 대상(이중절연 기기 등)과 세부 요건은 법령 원문을 확인하세요.\n\n출처:\n- 국가법령정보센터(법제처) – 산업안전보건기준에 관한 규칙 제304조\n- 정책브리핑 – 산업자원부 보도자료 「겨울철 가스·전기시설 이렇게 관리하세요」(2007)\n\n개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다.",

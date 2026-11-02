@@ -61,3 +61,4 @@ render:
     accent: "#FACC15"
     text: "#F8FAFC"
     sub: "#94A3B8"
+    panel: "#1E293B"   # 일러스트 바탕

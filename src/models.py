@@ -19,12 +19,14 @@ class Research(BaseModel):
 class Slide(BaseModel):
     heading: str = Field(description="슬라이드 제목, 18자 이내")
     body: List[str] = Field(description="본문 요점 2~4개, 각 40자 이내")
+    illustration_svg: str = Field(default="", description="장면 일러스트 SVG (viewBox 0 0 900 480, 글자 없음)")
 
 
 class Post(BaseModel):
     category: str
     title: str = Field(description="표지 제목, 20자 이내")
     subtitle: str = Field(description="표지 부제, 30자 이내")
+    cover_svg: str = Field(default="", description="표지 일러스트 SVG (viewBox 0 0 900 480, 글자 없음)")
     slides: List[Slide] = Field(description="본문 슬라이드 4~7장")
     caption: str = Field(description="인스타그램 본문, 1,500자 이내, 출처 표기 포함")
     hashtags: List[str] = Field(description="해시태그 10~20개, # 포함")
