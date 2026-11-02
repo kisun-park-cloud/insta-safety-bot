@@ -22,6 +22,7 @@ jobs:
         run: |
           if [ -z "$GH_TOKEN" ]; then echo "GH_PAT 미등록 — 수동 갱신 필요"; exit 1; fi
           NEW=$(python -m src.upload refresh)
+          if [ -z "$NEW" ]; then echo "만료 없는 토큰(EAA) — 갱신 불필요"; exit 0; fi
           echo "::add-mask::$NEW"
           gh secret set IG_ACCESS_TOKEN --body "$NEW" --repo "$GITHUB_REPOSITORY"
           echo "갱신 완료"
