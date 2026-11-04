@@ -19,5 +19,12 @@
     "topic": "정전작업, 순서대로",
     "status": "published",
     "media_id": "18109104998209646"
+  },
+  {
+    "date": "20261104",
+    "category": "industrial_safety",
+    "topic": "떨어짐 막는 순서",
+    "status": "dry_run",
+    "media_id": null
   }
 ]
