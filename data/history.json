@@ -33,5 +33,12 @@
     "topic": "맨홀 속 보이지 않는 위험",
     "status": "published",
     "media_id": "18100397114691240"
+  },
+  {
+    "date": "20261106",
+    "category": "electrical_safety",
+    "topic": "전선과의 거리 규칙",
+    "status": "dry_run",
+    "media_id": null
   }
 ]

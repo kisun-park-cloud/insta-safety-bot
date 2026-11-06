@@ -167,5 +167,7 @@
       }
     ],
     "summary": "전압 구간별 접근 한계거리, 300cm 규정, 제321조 항호, 출처·면책문구·형식이 조사자료와 일치. critical 없음, minor 5건 모두 반영."
-  }
+  },
+  "media_id": null,
+  "status": "dry_run"
 }
