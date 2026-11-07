@@ -40,5 +40,12 @@
     "topic": "전선과의 거리 규칙",
     "status": "published",
     "media_id": "17939155632404426"
+  },
+  {
+    "date": "20261107",
+    "category": "industrial_safety",
+    "topic": "작업별 보호구 지도",
+    "status": "dry_run",
+    "media_id": null
   }
 ]
