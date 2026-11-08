@@ -47,5 +47,12 @@
     "topic": "작업별 보호구 지도",
     "status": "published",
     "media_id": "18131828530843025"
+  },
+  {
+    "date": "20261108",
+    "category": "accident_case",
+    "topic": "터파기 중 무너진 흙",
+    "status": "dry_run",
+    "media_id": null
   }
 ]
