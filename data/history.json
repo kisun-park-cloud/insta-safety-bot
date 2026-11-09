@@ -54,5 +54,12 @@
     "topic": "터파기 중 무너진 흙",
     "status": "published",
     "media_id": "18093335105233695"
+  },
+  {
+    "date": "20261109",
+    "category": "electrical_knowledge",
+    "topic": "전기난로 켜기 전에",
+    "status": "dry_run",
+    "media_id": null
   }
 ]

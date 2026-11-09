@@ -140,5 +140,7 @@
       }
     ],
     "summary": "수치·수칙이 조사자료와 일치하고 형식·일러스트 기준 충족. major 1건(비율 한정어)과 일러스트 minor 반영 후 확정."
-  }
+  },
+  "media_id": null,
+  "status": "dry_run"
 }
