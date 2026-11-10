@@ -1,0 +1,190 @@
+{
+  "date": "20261110",
+  "category": "electrical_safety",
+  "research": {
+    "topic": "감전 사고를 목격했을 때의 대처 순서와 감전 예방 수칙",
+    "key_facts": [
+      "소방방재청(정책브리핑 2010.7.15.) 감전사고 시 대처: 먼저 전원을 차단. 차단이 불가능하면 고무장갑 등 절연물과 마른 나무·플라스틱 도구 등을 이용해 사고자를 전원에서 분리. 이후 사고자의 의식·호흡·맥박을 확인하고, 높은 곳에서 떨어진 경우 출혈·골절 여부도 확인",
+      "고용노동부(2015.7.22.): 사고 발생 시 우선 전원을 차단하고, 나무 등 절연체를 이용해 감전된 도체에서 사고자를 분리한 후 응급조치. 안전보건공단이 제시한 산업현장 감전재해예방 3대 안전수칙은 '접지', '누전차단기 설치', '전기기기 정비 시 전원차단'",
+      "국민안전처(정책브리핑 2017.7.7.): 2011~2015년 감전사고 2,870건, 사망 187명. 7월 380건·8월 365건으로 1월 171건·2월 144건의 약 2배. 원인은 콘센트 등 충전부 직접 접촉 57%(1,629건), 합선 등에 의한 화재·화상 25%(721건), 누전 11%(320건). 예방: 젖은 손으로 전기기기 만지지 않기, 전기설비 점검 전 차단기를 내리고 수리 시 절연장갑 착용, 누전차단기 설치 및 정기 점검",
+      "고용노동부 서울동부지청(2021.8.20.): 감전 예방 3대 안전수칙 ①절연조치 및 보호구 착용 ②작업 전 전기차단 ③접지 및 누전차단",
+      "소방청(정책브리핑 2026.6.24., 집중호우 안전): 끊어진 전선 근처 접근 금지(감전 위험), 위험 상황 발생 시 지체 없이 119 신고",
+      "행정안전부(정책브리핑 2025.3.4., 성인 심폐소생술): 현장 안전 확인 후 반응 확인 → 반응이 없으면 도움요청(119 신고 및 자동심장충격기 요청) → 가슴압박 → 인공호흡"
+    ],
+    "legal_refs": [],
+    "sources": [
+      {
+        "title": "감전사고 많은 여름, 전기 조심하세요(2010.7.15.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148696828",
+        "publisher": "정책브리핑(소방방재청)"
+      },
+      {
+        "title": "여름 산업현장 장마철 감전사고 주의(2015.7.22.)",
+        "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=5820",
+        "publisher": "고용노동부"
+      },
+      {
+        "title": "고온다습 여름, 겨울보다 감전사고 2배 많아(2017.7.7.)",
+        "url": "https://www.korea.kr/news/interviewView.do?newsId=148839243",
+        "publisher": "정책브리핑(국민안전처)"
+      },
+      {
+        "title": "감전사고 예방 안내(3대 안전수칙), 2021.8.20.",
+        "url": "https://www.moel.go.kr/local/seouldongbu/info/dataroom/view.do?bbs_seq=20210801606",
+        "publisher": "고용노동부 서울동부지청"
+      },
+      {
+        "title": "하늘에 구멍 난 날, 집중호우 생존 공식!(2026.6.24.)",
+        "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148967030",
+        "publisher": "정책브리핑(소방청)"
+      },
+      {
+        "title": "성인 심폐소생술 습득(2025.3.4.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148940160",
+        "publisher": "정책브리핑(행정안전부)"
+      }
+    ]
+  },
+  "post": {
+    "category": "electrical_safety",
+    "title": "감전 사고, 이렇게 구해요",
+    "subtitle": "전원 차단 → 절연물로 분리 → 상태 확인",
+    "cover_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(250 440) scale(1.0)\"><rect x=\"-90\" y=\"-260\" width=\"180\" height=\"260\" rx=\"26\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-230\" width=\"120\" height=\"110\" rx=\"16\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-18\" y=\"-212\" width=\"36\" height=\"74\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-12\" y=\"-158\" width=\"24\" height=\"16\" rx=\"5\" fill=\"#22304A\"/><circle cx=\"-19.8\" cy=\"-72\" r=\"8.1\" fill=\"#22304A\"/><circle cx=\"19.8\" cy=\"-72\" r=\"8.1\" fill=\"#22304A\"/><circle cx=\"-17.1\" cy=\"-74.7\" r=\"3.15\" fill=\"#FFFFFF\"/><circle cx=\"22.5\" cy=\"-74.7\" r=\"3.15\" fill=\"#FFFFFF\"/><ellipse cx=\"-30.6\" cy=\"-57.6\" rx=\"9.0\" ry=\"5.4\" fill=\"#FFA8B8\"/><ellipse cx=\"30.6\" cy=\"-57.6\" rx=\"9.0\" ry=\"5.4\" fill=\"#FFA8B8\"/><path d=\"M-10.8 -57.6 q10.8 12.6 21.6 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(450 260) scale(1.0)\"><path d=\"M-26 56 V-6 Q-26 -36 -12 -36 V-46 Q0 -56 6 -42 Q18 -52 26 -36 Q36 -32 32 -6 L42 -20 Q54 -16 46 2 L28 30 V56 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-34\" y=\"30\" width=\"70\" height=\"30\" rx=\"8\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(470 400) scale(0.8)\"><rect x=\"-120\" y=\"-12\" width=\"240\" height=\"24\" rx=\"12\" fill=\"#E8B48A\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-80 -2 H-40 M10 4 H60\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(740 445) scale(0.85)\"><rect x=\"-34\" y=\"-42\" width=\"28\" height=\"42\" rx=\"10\" fill=\"#4C6EF5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"6\" y=\"-42\" width=\"28\" height=\"42\" rx=\"10\" fill=\"#4C6EF5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"-22\" cy=\"0\" rx=\"22\" ry=\"10\" fill=\"#22304A\"/><ellipse cx=\"22\" cy=\"0\" rx=\"22\" ry=\"10\" fill=\"#22304A\"/><path d=\"M-38 -100 Q-59.0 -98.0 -80 -120\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-38 -100 Q-59.0 -98.0 -80 -120\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-80\" cy=\"-120\" r=\"14\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M38 -100 Q51.0 -73.0 64 -70\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M38 -100 Q51.0 -73.0 64 -70\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"64\" cy=\"-70\" r=\"14\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-44\" y=\"-118\" width=\"88\" height=\"82\" rx=\"24\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-44\" y=\"-88\" width=\"88\" height=\"14\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\"/><path d=\"M0 -116 V-40\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"-185\" r=\"68\" fill=\"#FFD8B5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-22.0\" cy=\"-178\" r=\"9.0\" fill=\"#22304A\"/><circle cx=\"22.0\" cy=\"-178\" r=\"9.0\" fill=\"#22304A\"/><circle cx=\"-19.0\" cy=\"-181.0\" r=\"3.5\" fill=\"#FFFFFF\"/><circle cx=\"25.0\" cy=\"-181.0\" r=\"3.5\" fill=\"#FFFFFF\"/><ellipse cx=\"-34.0\" cy=\"-162.0\" rx=\"10.0\" ry=\"6.0\" fill=\"#FFA8B8\"/><ellipse cx=\"34.0\" cy=\"-162.0\" rx=\"10.0\" ry=\"6.0\" fill=\"#FFA8B8\"/><path d=\"M-12.0 -162.0 q12.0 14.0 24.0 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-60 -170 Q-58 -128 -30 -122\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 -170 Q58 -128 30 -122\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-66 -200 Q-66 -268 0 -268 Q66 -268 66 -200 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-84\" y=\"-206\" width=\"168\" height=\"18\" rx=\"9\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -266 V-210\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(450 110) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(120 130) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(620 110) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>",
+    "slides": [
+      {
+        "heading": "손부터 대면 안 돼요",
+        "body": [
+          "사고자를 바로 만지지 말 것",
+          "끊어진 전선 근처는 다가가지 않기",
+          "순서: 전원 차단 → 분리 → 119·응급조치"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(250 400) scale(1.2)\"><rect x=\"-80\" y=\"-120\" width=\"160\" height=\"120\" rx=\"20\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-30\" cy=\"-60\" r=\"24\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"-80\" width=\"44\" height=\"14\" rx=\"6\" fill=\"#ADB5BD\"/><path d=\"M80 -40 Q140 -40 150 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(250 180) scale(0.9)\"><path d=\"M10 -50 L-26 8 H0 L-12 52 L30 -10 H4 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(560 280) scale(1.2)\"><path d=\"M-30 50 V-10 Q-30 -40 -16 -40 V-60 Q-6 -72 4 -60 V-44 Q14 -58 24 -46 Q36 -50 38 -34 Q48 -38 50 -22 V20 Q50 50 20 56 Z\" fill=\"#FFD8B5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(660 150) scale(0.8)\"><circle r=\"38\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -14 L14 14 M14 -14 L-14 14\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(800 330) scale(0.8)\"><path d=\"M0 -50 L48 36 H-48 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -18 V8\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"22\" r=\"6\" fill=\"#22304A\"/></g></svg>"
+      },
+      {
+        "heading": "① 전원부터 차단",
+        "body": [
+          "사고 설비의 전원을 먼저 끊기",
+          "차단기·스위치 등으로 전기 흐름 차단"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(300 440) scale(1.1)\"><rect x=\"-90\" y=\"-260\" width=\"180\" height=\"260\" rx=\"26\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-230\" width=\"120\" height=\"110\" rx=\"16\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-18\" y=\"-212\" width=\"36\" height=\"74\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-12\" y=\"-158\" width=\"24\" height=\"16\" rx=\"5\" fill=\"#22304A\"/><circle cx=\"-19.8\" cy=\"-72\" r=\"8.1\" fill=\"#22304A\"/><circle cx=\"19.8\" cy=\"-72\" r=\"8.1\" fill=\"#22304A\"/><circle cx=\"-17.1\" cy=\"-74.7\" r=\"3.15\" fill=\"#FFFFFF\"/><circle cx=\"22.5\" cy=\"-74.7\" r=\"3.15\" fill=\"#FFFFFF\"/><ellipse cx=\"-30.6\" cy=\"-57.6\" rx=\"9.0\" ry=\"5.4\" fill=\"#FFA8B8\"/><ellipse cx=\"30.6\" cy=\"-57.6\" rx=\"9.0\" ry=\"5.4\" fill=\"#FFA8B8\"/><path d=\"M-10.8 -57.6 q10.8 12.6 21.6 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M460 220 L560 220\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M542 206 L560 220 L542 234\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(660 220) scale(0.8)\"><path d=\"M10 -50 L-26 8 H0 L-12 52 L30 -10 H4 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M620 170 l80 100 M700 170 l-80 100\" fill=\"none\" stroke=\"#FF6B6B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(300 110) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(800 380) scale(0.7)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "② 못 끄면 절연물로",
+        "body": [
+          "고무장갑 등 절연물 착용",
+          "마른 나무·플라스틱 도구로 사고자 분리"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(240 230) scale(1.3)\"><path d=\"M-26 56 V-6 Q-26 -36 -12 -36 V-46 Q0 -56 6 -42 Q18 -52 26 -36 Q36 -32 32 -6 L42 -20 Q54 -16 46 2 L28 30 V56 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-34\" y=\"30\" width=\"70\" height=\"30\" rx=\"8\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(580 260) scale(1.1)\"><rect x=\"-120\" y=\"-12\" width=\"240\" height=\"24\" rx=\"12\" fill=\"#E8B48A\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-80 -2 H-40 M10 4 H60\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(660 140) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(120 400) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(820 400) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "③ 119 신고·응급조치",
+        "body": [
+          "즉시 119 신고, 반응 없으면 AED 요청",
+          "의식·호흡 확인, 추락했다면 출혈·골절도",
+          "반응·호흡 없으면 심폐소생술(가슴압박)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(150 240) scale(1.0)\"><rect x=\"-50\" y=\"-90\" width=\"100\" height=\"180\" rx=\"20\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-34\" y=\"-66\" width=\"68\" height=\"100\" rx=\"8\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"60\" r=\"12\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 -60 q20 20 0 40 M80 -76 q34 36 0 72\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(420 230) scale(1.3)\"><path d=\"M0 40 Q-70 -6 -44 -40 Q-20 -60 0 -30 Q20 -60 44 -40 Q70 -6 0 40 Z\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-40 0 H-16 L-6 -20 L6 20 L16 0 H40\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(660 230)\"><circle r=\"80\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-40 0 q20 -30 40 0 t40 0\" fill=\"none\" stroke=\"#5C7CFA\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(780 120) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(130 120) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(800 380) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "여름 감전, 겨울의 약 2배",
+        "body": [
+          "2011~15년 감전사고 2,870건, 사망 187명",
+          "7·8월이 1·2월의 약 2배",
+          "원인 57%는 콘센트 등 충전부 직접 접촉"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><rect x=\"290\" y=\"120\" width=\"320\" height=\"220\" rx=\"20\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"320\" y=\"250\" width=\"50\" height=\"60\" rx=\"8\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"388\" y=\"258\" width=\"50\" height=\"52\" rx=\"8\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"456\" y=\"180\" width=\"50\" height=\"130\" rx=\"8\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"524\" y=\"186\" width=\"50\" height=\"124\" rx=\"8\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(130 200) scale(0.7)\"><path d=\"M10 -50 L-26 8 H0 L-12 52 L30 -10 H4 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><circle cx=\"790\" cy=\"180\" r=\"50\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(780 330) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "생활 속 예방",
+        "body": [
+          "젖은 손으로 전기기기 만지지 않기",
+          "전기설비 점검 전 차단기 내리기",
+          "누전차단기 설치·정기 점검"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(220 260) scale(1.2)\"><path d=\"M-30 50 V-10 Q-30 -40 -16 -40 V-60 Q-6 -72 4 -60 V-44 Q14 -58 24 -46 Q36 -50 38 -34 Q48 -38 50 -22 V20 Q50 50 20 56 Z\" fill=\"#FFD8B5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-50 -66 Q-38 -50 -50 -42 Q-62 -50 -50 -66 Z\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"4\"/><path d=\"M64 -76 Q76 -60 64 -52 Q52 -60 64 -76 Z\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"4\"/><path d=\"M60 -6 Q72 10 60 18 Q48 10 60 -6 Z\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"4\"/></g><g transform=\"translate(330 140) scale(0.6)\"><circle r=\"38\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -14 L14 14 M14 -14 L-14 14\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(470 380) scale(0.8)\"><rect x=\"-80\" y=\"-120\" width=\"160\" height=\"120\" rx=\"20\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-30\" cy=\"-60\" r=\"24\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"-80\" width=\"44\" height=\"14\" rx=\"6\" fill=\"#ADB5BD\"/><path d=\"M80 -40 Q140 -40 150 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(760 440) scale(0.9)\"><rect x=\"-90\" y=\"-260\" width=\"180\" height=\"260\" rx=\"26\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-230\" width=\"120\" height=\"110\" rx=\"16\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-18\" y=\"-212\" width=\"36\" height=\"74\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-12\" y=\"-158\" width=\"24\" height=\"16\" rx=\"5\" fill=\"#22304A\"/><circle cx=\"-19.8\" cy=\"-72\" r=\"8.1\" fill=\"#22304A\"/><circle cx=\"19.8\" cy=\"-72\" r=\"8.1\" fill=\"#22304A\"/><circle cx=\"-17.1\" cy=\"-74.7\" r=\"3.15\" fill=\"#FFFFFF\"/><circle cx=\"22.5\" cy=\"-74.7\" r=\"3.15\" fill=\"#FFFFFF\"/><ellipse cx=\"-30.6\" cy=\"-57.6\" rx=\"9.0\" ry=\"5.4\" fill=\"#FFA8B8\"/><ellipse cx=\"30.6\" cy=\"-57.6\" rx=\"9.0\" ry=\"5.4\" fill=\"#FFA8B8\"/><path d=\"M-10.8 -57.6 q10.8 12.6 21.6 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(760 110) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "현장 3대 안전수칙",
+        "body": [
+          "절연조치 및 보호구 착용",
+          "작업 전 전기 차단",
+          "접지 및 누전차단"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(330 445) scale(1.0)\"><rect x=\"-34\" y=\"-42\" width=\"28\" height=\"42\" rx=\"10\" fill=\"#4C6EF5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"6\" y=\"-42\" width=\"28\" height=\"42\" rx=\"10\" fill=\"#4C6EF5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"-22\" cy=\"0\" rx=\"22\" ry=\"10\" fill=\"#22304A\"/><ellipse cx=\"22\" cy=\"0\" rx=\"22\" ry=\"10\" fill=\"#22304A\"/><path d=\"M-38 -100 Q-64.0 -98.0 -90 -120\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-38 -100 Q-64.0 -98.0 -90 -120\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-90\" cy=\"-120\" r=\"14\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M38 -100 Q64.0 -98.0 90 -120\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M38 -100 Q64.0 -98.0 90 -120\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"90\" cy=\"-120\" r=\"14\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-44\" y=\"-118\" width=\"88\" height=\"82\" rx=\"24\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-44\" y=\"-88\" width=\"88\" height=\"14\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\"/><path d=\"M0 -116 V-40\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"-185\" r=\"68\" fill=\"#FFD8B5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-22.0\" cy=\"-178\" r=\"9.0\" fill=\"#22304A\"/><circle cx=\"22.0\" cy=\"-178\" r=\"9.0\" fill=\"#22304A\"/><circle cx=\"-19.0\" cy=\"-181.0\" r=\"3.5\" fill=\"#FFFFFF\"/><circle cx=\"25.0\" cy=\"-181.0\" r=\"3.5\" fill=\"#FFFFFF\"/><ellipse cx=\"-34.0\" cy=\"-162.0\" rx=\"10.0\" ry=\"6.0\" fill=\"#FFA8B8\"/><ellipse cx=\"34.0\" cy=\"-162.0\" rx=\"10.0\" ry=\"6.0\" fill=\"#FFA8B8\"/><path d=\"M-12.0 -162.0 q12.0 14.0 24.0 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-60 -170 Q-58 -128 -30 -122\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 -170 Q58 -128 30 -122\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-66 -200 Q-66 -268 0 -268 Q66 -268 66 -200 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-84\" y=\"-206\" width=\"168\" height=\"18\" rx=\"9\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -266 V-210\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(620 200) scale(0.9)\"><path d=\"M-26 56 V-6 Q-26 -36 -12 -36 V-46 Q0 -56 6 -42 Q18 -52 26 -36 Q36 -32 32 -6 L42 -20 Q54 -16 46 2 L28 30 V56 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-34\" y=\"30\" width=\"70\" height=\"30\" rx=\"8\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(780 440) scale(0.8)\"><rect x=\"-90\" y=\"-260\" width=\"180\" height=\"260\" rx=\"26\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-230\" width=\"120\" height=\"110\" rx=\"16\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-18\" y=\"-212\" width=\"36\" height=\"74\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-12\" y=\"-158\" width=\"24\" height=\"16\" rx=\"5\" fill=\"#22304A\"/><circle cx=\"-19.8\" cy=\"-72\" r=\"8.1\" fill=\"#22304A\"/><circle cx=\"19.8\" cy=\"-72\" r=\"8.1\" fill=\"#22304A\"/><circle cx=\"-17.1\" cy=\"-74.7\" r=\"3.15\" fill=\"#FFFFFF\"/><circle cx=\"22.5\" cy=\"-74.7\" r=\"3.15\" fill=\"#FFFFFF\"/><ellipse cx=\"-30.6\" cy=\"-57.6\" rx=\"9.0\" ry=\"5.4\" fill=\"#FFA8B8\"/><ellipse cx=\"30.6\" cy=\"-57.6\" rx=\"9.0\" ry=\"5.4\" fill=\"#FFA8B8\"/><path d=\"M-10.8 -57.6 q10.8 12.6 21.6 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(560 420) scale(1.0)\"><path d=\"M0 -40 V0 M-34 0 H34 M-22 14 H22 M-10 28 H10\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(620 330) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(120 130) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      }
+    ],
+    "caption": "눈앞에서 누군가 감전됐다면, 먼저 손을 뻗지 마세요.\n\n정부가 안내해 온 감전사고 대처 순서입니다.\n① 먼저 사고 설비의 전원을 차단합니다.\n② 전원을 끌 수 없다면 고무장갑 등 절연물을 착용하고, 마른 나무나 플라스틱 도구로 사고자를 떼어냅니다.\n③ 지체 없이 119에 신고하고, 반응이 없으면 자동심장충격기(AED)도 요청합니다. 의식·호흡(높은 곳에서 떨어졌다면 출혈·골절도)을 확인하고, 반응이 없으면 심폐소생술(가슴압박)을 합니다.\n\n끊어진 전선 근처에는 다가가지 마세요(소방청).\n\n국민안전처 자료(2017)에 따르면 2011~2015년 감전사고는 2,870건, 사망은 187명이었고, 7·8월 사고가 1·2월의 약 2배였습니다. 원인의 57%는 콘센트 등 충전부를 직접 만진 경우였습니다.\n\n예방 수칙\n✔ 젖은 손으로 전기기기 만지지 않기\n✔ 전기설비 점검 전 차단기 내리기\n✔ 누전차단기 설치와 정기 점검\n✔ 작업현장 3대 수칙: 절연조치·보호구 착용, 작업 전 전기 차단, 접지·누전차단\n\n※ 통계와 대처 요령 일부는 2010~2017년 자료입니다.\n\n출처:\n- 소방방재청(정책브리핑) – 감전사고 많은 여름, 전기 조심하세요(2010)\n- 고용노동부 – 여름 산업현장 장마철 감전사고 주의(2015)\n- 국민안전처(정책브리핑) – 고온다습 여름, 겨울보다 감전사고 2배 많아(2017)\n- 고용노동부 서울동부지청 – 감전사고 예방 안내(2021)\n- 소방청(정책브리핑) – 집중호우 안전수칙(2026)\n- 행정안전부(정책브리핑) – 성인 심폐소생술(2025)\n\n개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다.",
+    "hashtags": [
+      "#감전",
+      "#감전사고",
+      "#응급조치",
+      "#전기안전",
+      "#누전차단기",
+      "#생활안전"
+    ],
+    "sources": [
+      {
+        "title": "감전사고 많은 여름, 전기 조심하세요(2010.7.15.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148696828",
+        "publisher": "정책브리핑(소방방재청)"
+      },
+      {
+        "title": "여름 산업현장 장마철 감전사고 주의(2015.7.22.)",
+        "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=5820",
+        "publisher": "고용노동부"
+      },
+      {
+        "title": "고온다습 여름, 겨울보다 감전사고 2배 많아(2017.7.7.)",
+        "url": "https://www.korea.kr/news/interviewView.do?newsId=148839243",
+        "publisher": "정책브리핑(국민안전처)"
+      },
+      {
+        "title": "감전사고 예방 안내(3대 안전수칙), 2021.8.20.",
+        "url": "https://www.moel.go.kr/local/seouldongbu/info/dataroom/view.do?bbs_seq=20210801606",
+        "publisher": "고용노동부 서울동부지청"
+      },
+      {
+        "title": "하늘에 구멍 난 날, 집중호우 생존 공식!(2026.6.24.)",
+        "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148967030",
+        "publisher": "정책브리핑(소방청)"
+      },
+      {
+        "title": "성인 심폐소생술 습득(2025.3.4.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148940160",
+        "publisher": "정책브리핑(행정안전부)"
+      }
+    ],
+    "legal_refs": []
+  },
+  "review": {
+    "score": 93,
+    "passed": true,
+    "issues": [
+      {
+        "severity": "major",
+        "where": "1차 검수(87점) 대처 순서",
+        "problem": "119 신고 단계와 끊어진 전선(고압) 접근 금지 단서 누락",
+        "fix": "소방청(2026)·행정안전부(2025) 자료 보강, 119 신고·AED 요청·끊어진 전선 접근 금지 추가(반영)"
+      },
+      {
+        "severity": "minor",
+        "where": "1차 검수 3장·5장·6장",
+        "problem": "근거 없는 고무장화 그림, '여름에 2배' 비교 대상 누락, 일반인에게 수리 권유로 읽힘",
+        "fix": "고무장화 삭제, '여름 감전, 겨울의 약 2배', 수리 문구 삭제(반영)"
+      },
+      {
+        "severity": "minor",
+        "where": "2차 검수 4장",
+        "problem": "119 신고를 반응 없을 때로만 한정, 일반인 맥박 확인 요구, 그림에 신고 요소 없음",
+        "fix": "'즉시 119 신고, 반응 없으면 AED', '의식·호흡 확인', 전화기 아이콘 추가(반영)"
+      },
+      {
+        "severity": "minor",
+        "where": "캡션 면책문구",
+        "problem": "법령 인용 없는 회차에 법령 문장 불필요",
+        "fix": "config.yaml 고정 문구라 유지(미반영)"
+      }
+    ],
+    "summary": "1차 87점(major 1건) 후 보강, 2차 93점 합격. minor 지적도 반영."
+  }
+}
