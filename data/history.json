@@ -61,5 +61,12 @@
     "topic": "전기난로 켜기 전에",
     "status": "published",
     "media_id": "18117679517036060"
+  },
+  {
+    "date": "20261110",
+    "category": "electrical_safety",
+    "topic": "감전 사고, 이렇게 구해요",
+    "status": "dry_run",
+    "media_id": null
   }
 ]
