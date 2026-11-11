@@ -70,24 +70,30 @@ def ig_user_id() -> str:
     raise RuntimeError("토큰으로 인스타그램 계정 ID를 찾지 못함 — Secrets 에 IG_USER_ID 를 등록하세요")
 
 
-def _wait_ready(container_id, timeout=600):
-    t0 = time.time()
-    while time.time() - t0 < timeout:
+def _wait_ready(container_id, first_wait=10, interval=20, max_checks=15):
+    """미디어 처리 완료 대기. API 요청 횟수 제한(요청 한도)에 걸리지 않도록
+    처음 10초 기다린 뒤 20초 간격으로 최대 15회(약 5분)만 상태를 확인한다."""
+    time.sleep(first_wait)
+    for _ in range(max_checks):
         r = _get(container_id, fields="status_code")
         if r.get("status_code") == "FINISHED":
             return
         if r.get("status_code") in ("ERROR", "EXPIRED"):
             raise RuntimeError(f"미디어 처리 실패: {r}")
-        time.sleep(5)
+        time.sleep(interval)
     raise TimeoutError("미디어 처리 시간 초과")
 
 
 def publish_carousel(image_urls: list[str], caption: str) -> str:
     """카드뉴스(캐러셀) 게시: 이미지별 컨테이너 → 캐러셀 컨테이너 → 게시."""
     ig = ig_user_id()
-    children = [_post(f"{ig}/media", image_url=u, is_carousel_item="true")["id"] for u in image_urls[:10]]
-    for c in children:
-        _wait_ready(c)
+    children = []
+    for u in image_urls[:10]:
+        children.append(_post(f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+        time.sleep(3)  # 요청을 몰아서 보내지 않도록 간격을 둔다
+    _wait_ready(children[-1])  # 마지막 이미지가 끝나면 앞 이미지들도 대개 끝나 있음
+    for c in children[:-1]:
+        _wait_ready(c, first_wait=0)
     parent = _post(f"{ig}/media", media_type="CAROUSEL", children=",".join(children), caption=caption)["id"]
     _wait_ready(parent)
     return _post(f"{ig}/media_publish", creation_id=parent)["id"]
