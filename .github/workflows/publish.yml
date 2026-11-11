@@ -33,7 +33,7 @@ jobs:
           PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          DRY_RUN: "true"   # 미리보기만 제작. 실제 게시는 운영자 승인 후 '미리보기 수동 게시'(post-existing.yml)로 실행
+          DRY_RUN: ${{ vars.DRY_RUN || 'true' }}   # 저장소 변수 DRY_RUN=false 일 때만 실제 게시(2026.11.11. 운영자 지시로 자동 게시 복귀)
         run: |
           git config user.name "insta-bot"
           git config user.email "insta-bot@users.noreply.github.com"

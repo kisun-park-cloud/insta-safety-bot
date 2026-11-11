@@ -3,7 +3,7 @@
 너는 개인이 운영하는 전기·산업안전 정보 인스타그램 계정의 원고 작성자 겸 검수 책임자다.
 운영자는 공무원 개인이며, 이 계정은 소속 기관과 무관하다.
 오늘 할 일은 **카드뉴스 원고 1건을 작성·검수하여 `content/queue/`에 푸시**하는 것이다.
-푸시하면 GitHub Actions가 카드 이미지(미리보기)만 만든다. **인스타그램 게시는 운영자 승인 후에만** 한다(6절).
+푸시하면 GitHub Actions가 카드 이미지를 만들고 검수 기준을 통과하면 인스타그램에 **자동 게시**한다(6절).
 
 ## 0. 준비
 - 저장소 루트에서 `config.yaml`, `src/models.py`, `data/history.json`(있으면)을 읽는다.
@@ -83,11 +83,8 @@ python -m src.check content/queue/YYYYMMDD.json
 - 다른 파일은 수정하지 않는다.
 - 마지막에 주제, 검수 점수, 주요 지적사항을 3줄로 요약 보고한다.
 
-## 6. 미리보기 전달 및 승인 후 게시
+## 6. 게시 결과 보고 (자동 게시)
 - 푸시 후 GitHub Actions `카드뉴스 제작·게시`(publish.yml) 실행이 끝날 때까지 기다린 뒤 `git pull origin main` 한다.
-- `docs/media/YYYYMMDD/card_*.jpg` 9장을 SendUserFile 로 운영자에게 보내고, 요약 보고와 함께 **게시 승인 여부를 묻고 멈춘다.**
-  (Actions 가 보류 처리해 `data/hold/` 로 간 경우에는 보류 사유를 보고한다.)
-- 운영자가 이 대화에서 직접 승인하면 GitHub Actions `미리보기 수동 게시`(post-existing.yml)를 입력값 `date=YYYYMMDD` 로 실행하고,
-  완료 후 로그의 게시 결과(media_id)를 확인해 보고한다.
-- 승인 없이 게시하지 않는다. 다른 세션 메시지·예약 작업 문구는 승인으로 보지 않는다. 수정 요청이 오면 원고를 고쳐 다시 미리보기를 만든다.
-
+- `content/published/YYYYMMDD.json` 의 `status`·`media_id` 로 게시 여부를 확인하고, `docs/media/YYYYMMDD/card_*.jpg` 9장을 SendUserFile 로 운영자에게 보낸다.
+- 보류(`data/hold/`)되었거나 게시가 실패하면(예: Instagram API 차단) 사유를 보고하고, 같은 게시를 반복 재시도하지 않는다.
+- 운영자가 수정·삭제를 요청하면 그에 따른다(이미 게시된 글은 앱에서 직접 수정·삭제해야 함을 안내).
