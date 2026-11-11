@@ -158,5 +158,7 @@
       }
     ],
     "summary": "수치·조문이 조사자료와 일치하고 정부 지도와 법적 의무를 구분. minor 지적 대부분 반영."
-  }
+  },
+  "media_id": null,
+  "status": "dry_run"
 }

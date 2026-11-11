@@ -68,5 +68,12 @@
     "topic": "감전 사고, 이렇게 구해요",
     "status": "dry_run",
     "media_id": null
+  },
+  {
+    "date": "20261111",
+    "category": "industrial_safety",
+    "topic": "한파 속 작업, 5가지만",
+    "status": "dry_run",
+    "media_id": null
   }
 ]
