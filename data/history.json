@@ -73,7 +73,28 @@
     "date": "20261111",
     "category": "industrial_safety",
     "topic": "한파 속 작업, 5가지만",
-    "status": "dry_run",
+    "status": "published",
+    "media_id": null
+  },
+  {
+    "date": "20261112",
+    "category": "accident_case",
+    "topic": "타설 중 무너진 동바리",
+    "status": "published",
+    "media_id": null
+  },
+  {
+    "date": "20261113",
+    "category": "electrical_safety",
+    "topic": "전선 아래 크레인 작업",
+    "status": "published",
+    "media_id": null
+  },
+  {
+    "date": "20261114",
+    "category": "industrial_safety",
+    "topic": "지게차, 이 3가지만",
+    "status": "published",
     "media_id": null
   }
 ]

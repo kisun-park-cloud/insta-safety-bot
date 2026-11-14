@@ -160,5 +160,7 @@
     ],
     "summary": "사실·원인 서술(원 사례 범위)·법령(제331조·제334조)·형식 기준 충족. major(일러스트)·minor(순서) 모두 반영."
   },
-  "hold_reason": "2026-11-12 자동 게시 실패(Instagram API 403 'Application request limit reached' 행동 차단). 반복 재시도 금지 원칙에 따라 보류함으로 이동, 운영자 확인 대기."
+  "status": "published",
+  "media_id": null,
+  "publish_note": "오류(API 403 행동 차단) 응답을 받았으나 실제로는 게시됨 — 2026-11-14 계정 게시물 수(14)와 운영자 확인으로 확인. media_id 미수신"
 }

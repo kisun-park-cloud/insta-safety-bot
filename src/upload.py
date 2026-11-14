@@ -96,7 +96,20 @@ def publish_carousel(image_urls: list[str], caption: str) -> str:
         _wait_ready(c, first_wait=0)
     parent = _post(f"{ig}/media", media_type="CAROUSEL", children=",".join(children), caption=caption)["id"]
     _wait_ready(parent)
-    return _post(f"{ig}/media_publish", creation_id=parent)["id"]
+    try:
+        return _post(f"{ig}/media_publish", creation_id=parent)["id"]
+    except RuntimeError as e:
+        # 요청 한도(code 4) 오류가 와도 실제로는 게시된 경우가 있다(2026.11. 확인).
+        # 컨테이너 상태가 PUBLISHED 이면 최신 게시물 id 를 돌려준다.
+        time.sleep(30)
+        try:
+            if _get(parent, fields="status_code").get("status_code") == "PUBLISHED":
+                latest = _get(f"{ig}/media", fields="id", limit=1).get("data", [])
+                print("게시 요청은 오류였지만 실제 게시 확인됨:", str(e)[:120])
+                return latest[0]["id"] if latest else "published-id-unknown"
+        except Exception as e2:
+            print("  (게시 여부 재확인 실패:", str(e2)[:200], ")")
+        raise
 
 
 def refresh_token() -> str | None:
