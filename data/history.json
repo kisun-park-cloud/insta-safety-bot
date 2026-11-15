@@ -96,5 +96,12 @@
     "topic": "지게차, 이 3가지만",
     "status": "published",
     "media_id": null
+  },
+  {
+    "date": "20261115",
+    "category": "accident_case",
+    "topic": "부러진 각재, 11m 추락",
+    "status": "published",
+    "media_id": null
   }
 ]
