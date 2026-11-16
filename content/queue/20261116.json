@@ -1,0 +1,156 @@
+{
+  "date": "20261116",
+  "category": "electrical_knowledge",
+  "research": {
+    "topic": "겨울철 전기장판·전기매트 안전한 사용법(화재·저온화상 예방)",
+    "key_facts": [
+      "행정안전부(2024.11.27., 국가화재정보센터·소방청 자료): 2021~2023년 3년간 전기난로·전기장판 화재 1,403건, 사망 21명·부상 142명. 12월과 1월에 가장 많이 발생. 전기장판 화재는 기기 사용 부주의가 83%(250건)로 대부분. 전기장판 부주의 화재 2021년 54건 → 2022년 102건 → 2023년 94건",
+      "행정안전부(2024.11.27.) 수칙: 보관하던 제품은 사용 전 이상 유무 확인, 플러그·전선·열선이 헐거워지거나 벗겨지지 않았는지 확인 / 외출 등 장시간 자리를 비우거나 사용을 마친 뒤에는 반드시 전원 끄기, 고온 사용 시 과열 주의 / 타이머 기능으로 중간중간 사용 멈추기 / 전기장판 바닥면이 접히거나 무거운 물체에 눌리지 않도록 하고 이불을 겹겹이 덮은 채 사용하지 않기",
+      "산업통상자원부(2024.11.7.): 사용 전 전선·플러그·온도조절기 손상 확인 / 외출 시 전원 끄기 / 40도 이상 고온 장판을 오래 쓰면 저온화상(열성 홍반·색소 침착·물집 등) 가능, 저온으로 사용하고 맨살에 직접 사용 금지 / 피부 이상 시 온도 낮추거나 끄기 / 라텍스 제품 위·이불을 겹겹이 덮은 채 사용 금지",
+      "산업통상자원부(2023.11.6.): 한국소비자원 집계 2018~2021년 전기매트 안전사고 311건. 저온화상 예방: 매트와 피부 사이에 이불·담요 깔기, 고온 사용 최소화, 잘 때 자동 꺼짐 타이머 사용. 저온화상 의심 시 흐르는 물에 10~15분 식히고 깨끗한 수건으로 감싼 뒤 화상 진료. 전기매트는 전기용품 및 생활용품 안전관리법에 따른 안전인증을 받아야 판매 가능, 구매 전 제품·포장의 KC 인증마크 확인",
+      "소방청(2024.12.16.): 전기장판은 체온과 비슷한 온도로 설정, 장시간 사용하지 않기, 라텍스 매트 위에서 사용 금지"
+    ],
+    "legal_refs": [],
+    "sources": [
+      {
+        "title": "전기난로·장판 화재, '부주의'가 최다…외출 시 반드시 전원 꺼야(2024.11.27.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148936776",
+        "publisher": "정책브리핑(행정안전부)"
+      },
+      {
+        "title": "전기장판 안전사용 방법(2024.11.7.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148935973",
+        "publisher": "정책브리핑(산업통상자원부)"
+      },
+      {
+        "title": "전기매트 저온화상 피하는 안전한 사용법(2023.11.6.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148922223",
+        "publisher": "정책브리핑(산업통상자원부)"
+      },
+      {
+        "title": "전기장판, 라텍스 매트 위에서 사용 금지(2024.12.16.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148937502",
+        "publisher": "정책브리핑(소방청)"
+      }
+    ]
+  },
+  "post": {
+    "category": "electrical_knowledge",
+    "title": "전기장판, 이렇게 써요",
+    "subtitle": "장판 화재 83%는 사용 부주의",
+    "cover_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(420 420) scale(1.0)\"><path d=\"M-230 0 L-170 -90 H230 L170 0 Z\" fill=\"#FFA8B8\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-170 -30 H150 M-150 -60 H180\" fill=\"none\" stroke=\"#FF6B6B\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-230 0 L-170 -90 H230 L170 0 Z\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"2.3999999999999986\" cy=\"-48\" r=\"7.2\" fill=\"#22304A\"/><circle cx=\"37.6\" cy=\"-48\" r=\"7.2\" fill=\"#22304A\"/><circle cx=\"4.799999999999999\" cy=\"-50.4\" r=\"2.8000000000000003\" fill=\"#FFFFFF\"/><circle cx=\"40.0\" cy=\"-50.4\" r=\"2.8000000000000003\" fill=\"#FFFFFF\"/><ellipse cx=\"-7.200000000000003\" cy=\"-35.2\" rx=\"8.0\" ry=\"4.800000000000001\" fill=\"#FFA8B8\"/><ellipse cx=\"47.2\" cy=\"-35.2\" rx=\"8.0\" ry=\"4.800000000000001\" fill=\"#FFA8B8\"/><path d=\"M10.399999999999999 -35.2 q9.600000000000001 11.200000000000001 19.200000000000003 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 -40 Q250 -60 262 -100\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"238\" y=\"-170\" width=\"50\" height=\"70\" rx=\"12\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"263\" cy=\"-145\" r=\"10\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(420 300) scale(1.0)\"><path d=\"M-40 0 q10 -15 0 -30 t0 -30 M0 0 q10 -15 0 -30 t0 -30 M40 0 q10 -15 0 -30 t0 -30\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(760 140) scale(0.8)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(160 160) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(640 230) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>",
+    "slides": [
+      {
+        "heading": "3년간 1,403건",
+        "body": [
+          "2021~23년 전기난로·장판 화재(행안부)",
+          "사망 21명·부상 142명",
+          "12월과 1월에 가장 많이 발생"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><rect x=\"200\" y=\"130\" width=\"260\" height=\"200\" rx=\"20\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"240\" y=\"190\" width=\"56\" height=\"120\" rx=\"8\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"310\" y=\"230\" width=\"56\" height=\"80\" rx=\"8\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"380\" y=\"280\" width=\"56\" height=\"30\" rx=\"8\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(160 140) scale(0.7)\"><path d=\"M0 -50 L48 36 H-48 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -18 V8\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"22\" r=\"6\" fill=\"#22304A\"/></g><g transform=\"translate(690 250) scale(0.9)\"><circle r=\"80\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 0 L0 -80 A80 80 0 0 1 69 40 Z\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\"/><path d=\"M0 0 V-56 M0 0 L40 22\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-16\" y=\"-104\" width=\"32\" height=\"20\" rx=\"6\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(820 380) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "장판 화재는 '부주의'",
+        "body": [
+          "전기장판 화재의 83%가 사용 부주의",
+          "장판 부주의 화재 54→102→94건(2021~23년)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(330 420) scale(0.8)\"><path d=\"M-230 0 L-170 -90 H230 L170 0 Z\" fill=\"#FFA8B8\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-170 -30 H150 M-150 -60 H180\" fill=\"none\" stroke=\"#FF6B6B\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-230 0 L-170 -90 H230 L170 0 Z\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"2\" cy=\"-50\" r=\"7\" fill=\"#22304A\"/><circle cx=\"38\" cy=\"-50\" r=\"7\" fill=\"#22304A\"/><path d=\"M8 -26 q12 -10 24 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 -40 Q250 -60 262 -100\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"238\" y=\"-170\" width=\"50\" height=\"70\" rx=\"12\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"263\" cy=\"-145\" r=\"10\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(330 360) scale(0.8)\"><rect x=\"-70\" y=\"-110\" width=\"140\" height=\"110\" rx=\"10\" fill=\"#E0B07A\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-70 -70 H70 M0 -110 V-70\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(640 250) scale(1.1)\"><path d=\"M0 -50 L48 36 H-48 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -18 V8\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"22\" r=\"6\" fill=\"#22304A\"/></g><g transform=\"translate(780 130) scale(0.7)\"><circle r=\"38\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -14 L14 14 M14 -14 L-14 14\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "꺼내 쓰기 전 점검",
+        "body": [
+          "전선·플러그·온도조절기 손상 확인",
+          "열선이 헐겁거나 벗겨지지 않았는지 확인"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(250 280) scale(1.2)\"><rect x=\"-50\" y=\"-40\" width=\"100\" height=\"80\" rx=\"20\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-20 -40 V-80 M20 -40 V-80\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 40 Q0 90 -60 110\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M180 400 Q320 440 500 410\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(520 230) scale(1.0)\"><circle r=\"60\" fill=\"#E3F5FF\" stroke=\"#22304A\" stroke-width=\"12\"/><path d=\"M42 42 L100 100\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M42 42 L100 100\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(780 140) scale(0.8)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(120 140) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "접히거나 눌리지 않게",
+        "body": [
+          "바닥면 접힘·무거운 물건 눌림 금지",
+          "이불을 겹겹이 덮은 채 사용 금지",
+          "라텍스 매트 위에서 사용 금지"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(260 440) scale(0.6)\"><path d=\"M-230 0 L-170 -90 H230 L170 0 Z\" fill=\"#FFA8B8\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-170 -30 H150 M-150 -60 H180\" fill=\"none\" stroke=\"#FF6B6B\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-230 0 L-170 -90 H230 L170 0 Z\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"2.3999999999999986\" cy=\"-48\" r=\"7.2\" fill=\"#22304A\"/><circle cx=\"37.6\" cy=\"-48\" r=\"7.2\" fill=\"#22304A\"/><circle cx=\"4.799999999999999\" cy=\"-50.4\" r=\"2.8000000000000003\" fill=\"#FFFFFF\"/><circle cx=\"40.0\" cy=\"-50.4\" r=\"2.8000000000000003\" fill=\"#FFFFFF\"/><ellipse cx=\"-7.200000000000003\" cy=\"-35.2\" rx=\"8.0\" ry=\"4.800000000000001\" fill=\"#FFA8B8\"/><ellipse cx=\"47.2\" cy=\"-35.2\" rx=\"8.0\" ry=\"4.800000000000001\" fill=\"#FFA8B8\"/><path d=\"M10.399999999999999 -35.2 q9.600000000000001 11.200000000000001 19.200000000000003 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 -40 Q250 -60 262 -100\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"238\" y=\"-170\" width=\"50\" height=\"70\" rx=\"12\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"263\" cy=\"-145\" r=\"10\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(260 260) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(640 420) scale(0.8)\"><path d=\"M-150 0 H150 L150 -40 H-150 Z\" fill=\"#FFA8B8\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-150 -40 H150 L130 -80 H-130 Z\" fill=\"#FFA8B8\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-130 -80 H130 L110 -110 H-110 Z\" fill=\"#FFA8B8\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(640 330) scale(0.6)\"><rect x=\"-70\" y=\"-110\" width=\"140\" height=\"110\" rx=\"10\" fill=\"#E0B07A\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-70 -70 H70 M0 -110 V-70\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(640 160) scale(0.7)\"><circle r=\"38\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -14 L14 14 M14 -14 L-14 14\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "저온화상 주의",
+        "body": [
+          "40도 이상으로 오래 쓰면 저온화상 우려",
+          "맨살 대신 담요 깔기, 이상하면 온도 낮추거나 끄기",
+          "의심되면 물에 10~15분 식히고 수건 감싼 뒤 진료"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(420 440) scale(0.8)\"><path d=\"M-230 0 L-170 -90 H230 L170 0 Z\" fill=\"#FFA8B8\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-170 -30 H150 M-150 -60 H180\" fill=\"none\" stroke=\"#FF6B6B\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-230 0 L-170 -90 H230 L170 0 Z\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"2.3999999999999986\" cy=\"-48\" r=\"7.2\" fill=\"#22304A\"/><circle cx=\"37.6\" cy=\"-48\" r=\"7.2\" fill=\"#22304A\"/><circle cx=\"4.799999999999999\" cy=\"-50.4\" r=\"2.8000000000000003\" fill=\"#FFFFFF\"/><circle cx=\"40.0\" cy=\"-50.4\" r=\"2.8000000000000003\" fill=\"#FFFFFF\"/><ellipse cx=\"-7.200000000000003\" cy=\"-35.2\" rx=\"8.0\" ry=\"4.800000000000001\" fill=\"#FFA8B8\"/><ellipse cx=\"47.2\" cy=\"-35.2\" rx=\"8.0\" ry=\"4.800000000000001\" fill=\"#FFA8B8\"/><path d=\"M10.399999999999999 -35.2 q9.600000000000001 11.200000000000001 19.200000000000003 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 -40 Q250 -60 262 -100\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"238\" y=\"-170\" width=\"50\" height=\"70\" rx=\"12\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"263\" cy=\"-145\" r=\"10\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M230.0 380 L280.0 320 H610.0 L560.0 380 Z\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M300.0 350 H540.0\" fill=\"none\" stroke=\"#5C7CFA\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(760 330) scale(0.9)\"><rect x=\"-28\" y=\"-220\" width=\"56\" height=\"220\" rx=\"28\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"20\" r=\"42\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-12\" y=\"-88.0\" width=\"24\" height=\"98.0\" rx=\"12\" fill=\"#FF922B\"/><path d=\"M28 -66.0 h18 M28 -110.0 h18 M28 -154.0 h18\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(170 220) scale(0.8)\"><rect x=\"-20\" y=\"-100\" width=\"40\" height=\"80\" rx=\"10\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-20 -60 H-90 Q-110 -60 -110 -40 V-20 H-80 V-30 H-20 Z\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-95 -10 V70 M-80 0 V60 M-110 0 V60\" fill=\"none\" stroke=\"#74C0FC\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(600 120) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(300 120) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "끄고, 타이머 쓰고",
+        "body": [
+          "외출·사용 후엔 반드시 전원 끄기",
+          "잘 때는 자동 꺼짐 타이머 활용",
+          "체온과 비슷한 온도로 설정"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(220 260) scale(1.0)\"><rect x=\"-70\" y=\"-90\" width=\"140\" height=\"180\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-22\" cy=\"0\" r=\"10\" fill=\"#22304A\"/><circle cx=\"22\" cy=\"0\" r=\"10\" fill=\"#22304A\"/></g><g transform=\"translate(400 260) scale(0.9)\"><rect x=\"-50\" y=\"-40\" width=\"100\" height=\"80\" rx=\"20\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-20 -40 V-80 M20 -40 V-80\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 40 Q0 90 -60 110\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M320 210 l-20 -20 M320 310 l-20 20 M330 260 h-24\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(640 250) scale(0.9)\"><circle r=\"80\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 0 L0 -80 A80 80 0 0 1 69 40 Z\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\"/><path d=\"M0 0 V-56 M0 0 L40 22\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-16\" y=\"-104\" width=\"32\" height=\"20\" rx=\"6\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(800 120) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(120 400) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "살 땐 KC 인증마크",
+        "body": [
+          "안전인증 받은 제품만 판매 가능",
+          "구매 전 제품·포장의 KC 인증마크 확인"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(300 300) scale(1.0)\"><rect x=\"-140\" y=\"-120\" width=\"280\" height=\"200\" rx=\"16\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-140 -60 H140\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-110\" y=\"-20\" width=\"120\" height=\"70\" rx=\"10\" fill=\"#FFA8B8\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(620 260) scale(1.1)\"><path d=\"M0 -90 L70 -60 V10 Q70 70 0 96 Q-70 70 -70 10 V-60 Z\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-28 4 L-6 28 L32 -20\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"14\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(780 120) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(120 140) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(800 380) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      }
+    ],
+    "caption": "겨울 필수품 전기장판, 꺼내기 전에 한 번만 확인하세요.\n\n행정안전부에 따르면 2021~2023년 전기난로·전기장판 화재는 1,403건(사망 21명·부상 142명)이었고, 12월과 1월에 가장 많았습니다. 전기장판 화재는 기기 사용 부주의가 83%로 대부분이었습니다.\n\n이렇게 쓰면 더 안전합니다.\n① 오래 보관한 제품은 전선·플러그·온도조절기·열선 상태부터 확인\n② 바닥면이 접히거나 무거운 물건에 눌리지 않게, 이불을 겹겹이 덮거나 라텍스 매트 위에서 쓰지 않기\n③ 40도 이상 고온으로 오래 쓰면 저온화상 우려 — 맨살 대신 이불·담요를 깔고, 이상하면 온도를 낮추거나 끄기\n④ 외출하거나 다 쓰면 전원 끄기, 잘 때는 자동 꺼짐 타이머 활용\n⑤ 살 때는 제품·포장의 KC 인증마크 확인\n\n저온화상이 의심되면 흐르는 물에 10~15분 식히고 깨끗한 수건으로 감싼 뒤 진료를 받으세요.\n\n출처:\n- 행정안전부 – 전기난로·장판 화재 통계와 안전수칙(2024)\n- 산업통상자원부 – 전기장판 안전사용 방법(2024), 전기매트 저온화상 예방(2023)\n- 소방청 – 전기장판, 라텍스 매트 위에서 사용 금지(2024)\n\n개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다.",
+    "hashtags": [
+      "#전기장판",
+      "#전기매트",
+      "#저온화상",
+      "#화재예방",
+      "#겨울철안전",
+      "#전기안전"
+    ],
+    "sources": [
+      {
+        "title": "전기난로·장판 화재, '부주의'가 최다…외출 시 반드시 전원 꺼야(2024.11.27.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148936776",
+        "publisher": "정책브리핑(행정안전부)"
+      },
+      {
+        "title": "전기장판 안전사용 방법(2024.11.7.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148935973",
+        "publisher": "정책브리핑(산업통상자원부)"
+      },
+      {
+        "title": "전기매트 저온화상 피하는 안전한 사용법(2023.11.6.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148922223",
+        "publisher": "정책브리핑(산업통상자원부)"
+      },
+      {
+        "title": "전기장판, 라텍스 매트 위에서 사용 금지(2024.12.16.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148937502",
+        "publisher": "정책브리핑(소방청)"
+      }
+    ],
+    "legal_refs": []
+  },
+  "review": {
+    "score": 95,
+    "passed": true,
+    "issues": [
+      {
+        "severity": "major",
+        "where": "표지 부제",
+        "problem": "전기난로+장판 합계(1,403건)가 전기장판 화재로 오해될 수 있음(범위 혼동)",
+        "fix": "부제를 '장판 화재 83%는 사용 부주의'로 교체(반영)"
+      },
+      {
+        "severity": "minor",
+        "where": "2장·5장·7장·캡션 출처",
+        "problem": "2022년 102건 누락으로 추세 왜곡, 응급처치 문구 불완전·위치 부적절, 소방청 출처 제목 불일치, 5장 문구 축약 누락",
+        "fix": "세 해 수치 모두 기재, 응급처치를 5장으로 옮겨 완결, 출처 제목 정정(반영)"
+      }
+    ],
+    "summary": "수치·수칙이 모두 행안부·산업부·소방청 공개자료에 근거하고 일러스트에 잘못된 사용법·부상 묘사 없음. 1차 88점(major 1, minor 3) 지적 반영 후 재검수 95점 합격."
+  }
+}
