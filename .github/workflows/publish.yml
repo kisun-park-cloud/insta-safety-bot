@@ -26,6 +26,8 @@ jobs:
           curl -sfL -o fonts/NotoSansKR-Bold.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf"
           cp fonts/NotoSansKR-Bold.ttf fonts/NotoSansKR-Regular.ttf
       - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
+      - name: 영상 도구(ffmpeg, 릴스 제작용)
+        run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
       - name: 제작·게시
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -33,6 +35,7 @@ jobs:
           PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PYTHONUNBUFFERED: "1"
           DRY_RUN: ${{ vars.DRY_RUN || 'true' }}   # 저장소 변수 DRY_RUN=false 일 때만 실제 게시(2026.11.11. 운영자 지시로 자동 게시 복귀)
         run: |
           git config user.name "insta-bot"

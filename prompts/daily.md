@@ -20,6 +20,8 @@
 
 ## 2. 원고 작성 (`src/models.py`의 Post 구조)
 - title 14자 이내(표지에 크게 들어감), subtitle 30자 이내
+- 제목은 가능하면 **질문형**으로 호기심을 끈다(예: "멀티탭, 몇 개까지 꽂아도 될까?", "전기장판 접어서 보관해도 될까?"). 단, 공포 조장·낚시성 표현은 금지
+- `home_electrical`(생활 전기안전) 분야는 일반인 눈높이로, 전문용어는 풀어서 쓴다
 - slides **정확히 7장** (표지 + 본문 7 + 참고자료 = 총 9장): heading 16자 이내, body 요점 2~3개(각 40자 이내 — 그림이 들어가므로 짧게)
 - 사고사례 순서: 사고 개요 → 원인 → 예방대책 → 관련 법령
 - caption: 쉬운 설명 + `출처: 기관명` 목록 + 맨 끝에 `config.yaml`의 `account.disclaimer` **원문 그대로**
@@ -85,6 +87,7 @@ python -m src.check content/queue/YYYYMMDD.json
 
 ## 6. 게시 결과 보고 (자동 게시)
 - 푸시 후 GitHub Actions `카드뉴스 제작·게시`(publish.yml) 실행이 끝날 때까지 기다린 뒤 `git pull origin main` 한다.
-- `content/published/YYYYMMDD.json` 의 `status`·`media_id` 로 게시 여부를 확인하고, `docs/media/YYYYMMDD/card_*.jpg` 9장을 SendUserFile 로 운영자에게 보낸다.
+- `content/published/YYYYMMDD.json` 의 `status`·`media_id`·`format` 으로 게시 여부를 확인하고, `docs/media/YYYYMMDD/card_*.jpg` 9장(릴스 날은 `reel.mp4` 도)을 SendUserFile 로 운영자에게 보낸다.
+- `config.yaml` 의 `reels.days` 요일에는 같은 카드 9장을 이어 붙인 세로 영상(무음)이 **릴스**로 게시된다(하루 1건 유지). 원고 작성 방법은 동일하다.
 - 보류(`data/hold/`)되었거나 게시가 실패하면(예: Instagram API 차단) 사유를 보고하고, 같은 게시를 반복 재시도하지 않는다.
 - 운영자가 수정·삭제를 요청하면 그에 따른다(이미 게시된 글은 앱에서 직접 수정·삭제해야 함을 안내).

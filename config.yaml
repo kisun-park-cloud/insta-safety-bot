@@ -5,14 +5,20 @@ account:
   disclaimer: "개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다."
 
 # 요일별 주제 순환 (0=월 … 6=일). 하루 1건 게시 기준
+# 2026.11.16. 운영자 지시: 생활 전기안전 주제를 섞고(수·토), 그 날은 릴스로 게시
 schedule:
   0: electrical_knowledge
   1: electrical_safety
-  2: industrial_safety
+  2: home_electrical
   3: accident_case
-  4: electrical_safety
-  5: industrial_safety
-  6: accident_case
+  4: industrial_safety
+  5: home_electrical
+  6: industrial_safety
+
+# 릴스 게시 요일(0=월 … 6=일). 이 날은 카드 9장을 세로 영상(무음)으로 이어 붙여 릴스로 게시(하루 1건 유지)
+reels:
+  days: [2, 5]
+  seconds_per_card: 3
 
 categories:
   electrical_knowledge:
@@ -27,6 +33,10 @@ categories:
     label: "산업안전"
     format: carousel
     brief: "산업안전보건법·중대재해처벌법 관련 현장 안전수칙, 보호구, 위험성평가"
+  home_electrical:
+    label: "생활 전기안전"
+    format: reel
+    brief: "가정·사무실 등 일상생활의 전기안전(전열기·멀티탭·콘센트·전기차 충전·물기 있는 곳 등)을 누구나 따라 할 수 있게 설명"
   accident_case:
     label: "공사현장 사고사례"
     format: carousel

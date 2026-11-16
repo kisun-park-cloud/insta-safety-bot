@@ -84,9 +84,40 @@ def _wait_ready(container_id, first_wait=10, interval=20, max_checks=15):
     raise TimeoutError("미디어 처리 시간 초과")
 
 
+def _media_count(ig):
+    try:
+        return _get(ig, fields="media_count").get("media_count")
+    except Exception as e:
+        print("  (게시물 수 조회 실패:", str(e)[:200], ")", flush=True)
+        return None
+
+
+def _publish(ig, creation_id, before):
+    """게시 요청. 요청 한도(code 4) 오류가 와도 실제로는 게시되는 경우가 있어(2026.11. 확인)
+    오류 시 1분 간격 최대 3회 게시물 수(before 대비 증가)로 실제 게시 여부를 확인한다."""
+    try:
+        return _post(f"{ig}/media_publish", creation_id=creation_id)["id"]
+    except RuntimeError as e:
+        print("게시 요청 오류:", str(e)[:160], flush=True)
+        if before is None:
+            raise
+        for _ in range(3):
+            time.sleep(60)
+            now = _media_count(ig)
+            if now is not None and now > before:
+                print(f"게시물 수 {before}→{now}: 오류 응답이었지만 실제 게시 확인됨", flush=True)
+                try:
+                    latest = _get(f"{ig}/media", fields="id", limit=1).get("data", [])
+                    return latest[0]["id"] if latest else "published-id-unknown"
+                except Exception:
+                    return "published-id-unknown"
+        raise
+
+
 def publish_carousel(image_urls: list[str], caption: str) -> str:
     """카드뉴스(캐러셀) 게시: 이미지별 컨테이너 → 캐러셀 컨테이너 → 게시."""
     ig = ig_user_id()
+    before = _media_count(ig)
     children = []
     for u in image_urls[:10]:
         children.append(_post(f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
@@ -96,20 +127,19 @@ def publish_carousel(image_urls: list[str], caption: str) -> str:
         _wait_ready(c, first_wait=0)
     parent = _post(f"{ig}/media", media_type="CAROUSEL", children=",".join(children), caption=caption)["id"]
     _wait_ready(parent)
-    try:
-        return _post(f"{ig}/media_publish", creation_id=parent)["id"]
-    except RuntimeError as e:
-        # 요청 한도(code 4) 오류가 와도 실제로는 게시된 경우가 있다(2026.11. 확인).
-        # 컨테이너 상태가 PUBLISHED 이면 최신 게시물 id 를 돌려준다.
-        time.sleep(30)
-        try:
-            if _get(parent, fields="status_code").get("status_code") == "PUBLISHED":
-                latest = _get(f"{ig}/media", fields="id", limit=1).get("data", [])
-                print("게시 요청은 오류였지만 실제 게시 확인됨:", str(e)[:120])
-                return latest[0]["id"] if latest else "published-id-unknown"
-        except Exception as e2:
-            print("  (게시 여부 재확인 실패:", str(e2)[:200], ")")
-        raise
+    return _publish(ig, parent, before)
+
+
+def publish_reel(video_url: str, caption: str, cover_url: str | None = None) -> str:
+    """릴스 게시: 영상 컨테이너(REELS) → 처리 대기(최대 약 10분) → 게시. 피드에도 함께 표시."""
+    ig = ig_user_id()
+    before = _media_count(ig)
+    params = dict(media_type="REELS", video_url=video_url, caption=caption, share_to_feed="true")
+    if cover_url:
+        params["cover_url"] = cover_url
+    cid = _post(f"{ig}/media", **params)["id"]
+    _wait_ready(cid, first_wait=30, interval=30, max_checks=20)
+    return _publish(ig, cid, before)
 
 
 def refresh_token() -> str | None:

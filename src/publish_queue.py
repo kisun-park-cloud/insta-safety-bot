@@ -12,7 +12,8 @@ import requests
 from .check import load_cfg, rule_check, blocking
 from .models import Post
 from .render import render_images
-from .upload import publish_carousel
+from .upload import publish_carousel, publish_reel
+from .reel import make_reel
 from .notify import notify
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -33,6 +34,16 @@ def wait_public(url):
             pass
         time.sleep(10)
     raise TimeoutError(f"공개 URL 반영 대기 초과: {url}")
+
+
+def post_format(cfg, stem):
+    """게시 형식: config.yaml reels.days(0=월…6=일)에 해당하는 날짜면 릴스, 아니면 카드(캐러셀)."""
+    import datetime
+    try:
+        wd = datetime.datetime.strptime(stem[:8], "%Y%m%d").weekday()
+    except ValueError:
+        return "carousel"
+    return "reel" if wd in cfg.get("reels", {}).get("days", []) else "carousel"
 
 
 def main():
@@ -64,6 +75,9 @@ def main():
         images = render_images(cfg, post, media_dir)
         caption = post.caption.strip() + "\n\n" + " ".join(post.hashtags[:30])
         media_id = None
+        fmt = post_format(cfg, stem)
+        if fmt == "reel":
+            reel = make_reel(images, media_dir / "reel.mp4", cfg.get("reels", {}).get("seconds_per_card", 3))
         if dry:
             status = "dry_run"
             notify(f"🧪 [시험운영] 카드뉴스 제작 완료(미게시): {post.title}\n미리보기: docs/media/{stem}")
@@ -74,15 +88,31 @@ def main():
             git("push", "origin", "HEAD:main")
             base = f"{os.environ['PUBLIC_BASE_URL'].rstrip('/')}/media/{stem}"
             wait_public(f"{base}/{images[-1].name}")
-            media_id = publish_carousel([f"{base}/{p.name}" for p in images], caption)
+            try:
+                if fmt == "reel":
+                    wait_public(f"{base}/{reel.name}")
+                    media_id = publish_reel(f"{base}/{reel.name}", caption, cover_url=f"{base}/{images[0].name}")
+                else:
+                    media_id = publish_carousel([f"{base}/{p.name}" for p in images], caption)
+            except Exception as e:
+                # 같은 게시가 반복 재시도되지 않도록 보류함으로 옮기고 기록한 뒤 실패로 끝낸다
+                HOLD.mkdir(parents=True, exist_ok=True)
+                data["status"], data["format"], data["publish_error"] = "publish_failed", fmt, str(e)[:500]
+                (HOLD / f.name).write_text(json.dumps(data, ensure_ascii=False, indent=2))
+                f.unlink()
+                history.append({"date": stem, "category": post.category, "topic": post.title,
+                                "status": "publish_failed", "format": fmt})
+                HISTORY.write_text(json.dumps(history, ensure_ascii=False, indent=2))
+                notify(f"⚠️ 게시 실패(보류함 이동): {post.title}\n{str(e)[:300]}")
+                raise
             status = "published"
             notify(f"✅ 게시 완료: {post.title} (media_id {media_id})")
-        data["media_id"], data["status"] = media_id, status
+        data["media_id"], data["status"], data["format"] = media_id, status, fmt
         DONE.mkdir(parents=True, exist_ok=True)
         (DONE / f.name).write_text(json.dumps(data, ensure_ascii=False, indent=2))
         f.unlink()
         history.append({"date": stem, "category": post.category, "topic": post.title,
-                        "status": status, "media_id": media_id})
+                        "status": status, "media_id": media_id, "format": fmt})
     HISTORY.parent.mkdir(exist_ok=True)
     HISTORY.write_text(json.dumps(history, ensure_ascii=False, indent=2))
 
