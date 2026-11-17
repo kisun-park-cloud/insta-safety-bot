@@ -110,5 +110,13 @@
     "topic": "전기장판, 이렇게 써요",
     "status": "published",
     "media_id": null
+  },
+  {
+    "date": "20261117",
+    "category": "electrical_safety",
+    "topic": "전선, 바닥에 둬도 될까?",
+    "status": "published",
+    "media_id": "18101231180437939",
+    "format": "carousel"
   }
 ]
