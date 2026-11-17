@@ -1,0 +1,176 @@
+{
+  "date": "20261117",
+  "category": "electrical_safety",
+  "research": {
+    "topic": "현장 배선·이동전선(가설 전선) 감전 예방 — 절연피복, 접속, 통로바닥, 습윤장소, 꽂음접속기, 자동차단 후 재투입",
+    "key_facts": [
+      "고용노동부 재해사례(2007.11.12. 게시, 제목 '[재해사례] 휴대용 연삭기로 도금조 사상 작업중 감전 사고'): 도금 공장 내에서 도금조를 제작하기 위해 도금조 내부에서 휴대용 연삭기로 용접부위 등을 사상 작업 중 휴대용 연삭기 전선의 절연피복 손상으로 노출된 충전부가 도금조에 접촉되어 감전 사망한 재해. 발생연도는 첨부파일명(2006-48전기)으로만 추정 가능하여 쓰지 않음",
+      "안전보건규칙 제313조(배선 등의 절연피복 등) ①: 근로자가 작업 중이나 통행하면서 접촉하거나 접촉할 우려가 있는 배선 또는 이동전선에 대해 절연피복이 손상되거나 노화됨으로 인한 감전 위험을 방지하기 위해 필요한 조치 ②: 전선을 서로 접속하는 경우 해당 전선의 절연성능 이상으로 절연될 수 있는 것으로 충분히 피복하거나 적합한 접속기구 사용",
+      "제314조(습윤한 장소의 이동전선 등): 물 등 도전성이 높은 액체가 있는 습윤한 장소에서 근로자가 작업 중이나 통행하면서 이동전선 및 부속 접속기구에 접촉할 우려가 있으면 충분한 절연효과가 있는 것 사용",
+      "제315조(통로바닥에서의 전선 등 사용 금지): 통로바닥에 전선 또는 이동전선등을 설치하여 사용 금지. 다만 차량이나 그 밖의 물체 통과 등으로 절연피복이 손상될 우려가 없거나 손상되지 않도록 적절한 조치를 하여 사용하는 경우는 예외",
+      "제316조(꽂음접속기): 1호 서로 다른 전압의 꽂음접속기는 서로 접속되지 않는 구조 / 2호 습윤한 장소에는 방수형 등 그 장소에 적합한 것 / 3호 땀 등으로 젖은 손으로 취급하지 않도록 / 4호 잠금장치가 있으면 접속 후 잠그고 사용",
+      "제317조 제1항: 3호 젖은 손으로 전기기계·기구의 플러그를 꽂거나 제거하지 않도록 / 5호 차단기 등 과전류 차단장치에 의해 자동 차단된 후에는 전기회로 또는 전기기계·기구가 안전하다는 것이 증명되기 전까지 과전류 차단장치를 재투입하지 않도록",
+      "조문 확인: 국가법령정보센터 산업안전보건기준에 관한 규칙 2025.9.1. 시행본(lsiSeq=273603) 본문"
+    ],
+    "legal_refs": [
+      "산업안전보건기준에 관한 규칙 제313조",
+      "산업안전보건기준에 관한 규칙 제314조",
+      "산업안전보건기준에 관한 규칙 제315조",
+      "산업안전보건기준에 관한 규칙 제316조",
+      "산업안전보건기준에 관한 규칙 제317조"
+    ],
+    "sources": [
+      {
+        "title": "[재해사례] 휴대용 연삭기로 도금조 사상 작업중 감전 사고(2007.11.12. 게시)",
+        "url": "https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=1194865098672",
+        "publisher": "고용노동부"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제313조(배선 등의 절연피복 등)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제314조(습윤한 장소의 이동전선 등)·제315조(통로바닥에서의 전선 등 사용 금지)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제316조(꽂음접속기의 설치·사용 시 준수사항)·제317조(이동 및 휴대장비 등의 사용 전기 작업)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      }
+    ]
+  },
+  "post": {
+    "category": "electrical_safety",
+    "title": "전선, 바닥에 둬도 될까?",
+    "subtitle": "현장 이동전선, 감전 막는 5가지 규칙",
+    "cover_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><path d=\"M60 120 H840\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 120 V160 q0 20 -16 20\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M450 120 V160 q0 20 -16 20\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M700 120 V160 q0 20 -16 20\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 150 Q200 210 200 180 Q325 230 450 180 Q575 230 700 180 Q780 200 840 150\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"18\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 150 Q200 210 200 180 Q325 230 450 180 Q575 230 700 180 Q780 200 840 150\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(450 445) scale(0.85)\"><rect x=\"-34\" y=\"-42\" width=\"28\" height=\"42\" rx=\"10\" fill=\"#4C6EF5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"6\" y=\"-42\" width=\"28\" height=\"42\" rx=\"10\" fill=\"#4C6EF5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"-22\" cy=\"0\" rx=\"22\" ry=\"10\" fill=\"#22304A\"/><ellipse cx=\"22\" cy=\"0\" rx=\"22\" ry=\"10\" fill=\"#22304A\"/><path d=\"M-38 -100 Q-54.0 -78.0 -70 -80\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-38 -100 Q-54.0 -78.0 -70 -80\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-70\" cy=\"-80\" r=\"14\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M38 -100 Q54.0 -78.0 70 -80\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M38 -100 Q54.0 -78.0 70 -80\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"-80\" r=\"14\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-44\" y=\"-118\" width=\"88\" height=\"82\" rx=\"24\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-44\" y=\"-88\" width=\"88\" height=\"14\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\"/><path d=\"M0 -116 V-40\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"-185\" r=\"68\" fill=\"#FFD8B5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-22.0\" cy=\"-178\" r=\"9.0\" fill=\"#22304A\"/><circle cx=\"22.0\" cy=\"-178\" r=\"9.0\" fill=\"#22304A\"/><circle cx=\"-19.0\" cy=\"-181.0\" r=\"3.5\" fill=\"#FFFFFF\"/><circle cx=\"25.0\" cy=\"-181.0\" r=\"3.5\" fill=\"#FFFFFF\"/><ellipse cx=\"-34.0\" cy=\"-162.0\" rx=\"10.0\" ry=\"6.0\" fill=\"#FFA8B8\"/><ellipse cx=\"34.0\" cy=\"-162.0\" rx=\"10.0\" ry=\"6.0\" fill=\"#FFA8B8\"/><path d=\"M-12.0 -162.0 q12.0 14.0 24.0 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-60 -170 Q-58 -128 -30 -122\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 -170 Q58 -128 30 -122\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-66 -200 Q-66 -268 0 -268 Q66 -268 66 -200 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-84\" y=\"-206\" width=\"168\" height=\"18\" rx=\"9\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -266 V-210\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(760 300) scale(0.8)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(150 300) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>",
+    "slides": [
+      {
+        "heading": "사례: 벗겨진 전선 피복",
+        "body": [
+          "도금조 안에서 휴대용 연삭기로 작업 중",
+          "연삭기 전선 피복 손상, 충전부 노출",
+          "충전부가 도금조에 닿아 감전 사망(고용노동부)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><rect x=\"150.0\" y=\"270\" width=\"360\" height=\"170\" rx=\"14\" fill=\"#CED4DA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M170.0 300 H490.0\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(330 220) scale(1.0)\"><rect x=\"-90\" y=\"-30\" width=\"150\" height=\"60\" rx=\"26\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"0\" r=\"46\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"0\" r=\"12\" fill=\"#22304A\"/><rect x=\"-40\" y=\"-60\" width=\"24\" height=\"34\" rx=\"8\" fill=\"#22304A\"/></g><path d=\"M240 220 Q140 240 120 330 Q110 400 60 420\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"18\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M240 220 Q140 240 120 330 Q110 400 60 420\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"114\" y=\"290\" width=\"52\" height=\"20\" rx=\"6\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M122 300 H158\" fill=\"none\" stroke=\"#FFD43B\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(220 330) scale(0.8)\"><path d=\"M10 -50 L-26 8 H0 L-12 52 L30 -10 H4 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(660 230) scale(1.0)\"><path d=\"M0 -50 L48 36 H-48 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -18 V8\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"22\" r=\"6\" fill=\"#22304A\"/></g><g transform=\"translate(780 110) scale(0.7)\"><circle r=\"38\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -14 L14 14 M14 -14 L-14 14\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "피복부터 확인",
+        "body": [
+          "작업·통행 중 닿을 수 있는 배선·이동전선",
+          "피복 손상·노화로 인한 감전 방지 조치(제313조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><path d=\"M80 330 Q300 260 480 330 T860 300\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"18\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 330 Q300 260 480 330 T860 300\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(470 250) scale(1.1)\"><circle r=\"60\" fill=\"#E3F5FF\" stroke=\"#22304A\" stroke-width=\"12\" fill-opacity=\"0.6\"/><path d=\"M42 42 L100 100\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M42 42 L100 100\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(780 120) scale(0.8)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(150 150) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "이을 땐 제대로",
+        "body": [
+          "전선 절연성능 이상으로 충분히 피복",
+          "또는 적합한 접속기구 사용(제313조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><path d=\"M60 260 H360\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"18\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 260 H360\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M540 260 H840\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"18\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M540 260 H840\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(450 260) scale(1.3)\"><rect x=\"-70\" y=\"-40\" width=\"140\" height=\"80\" rx=\"18\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-40 -10 H40 M-40 12 H40\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(450 110) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(150 140) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(760 380) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "통로 바닥엔 두지 않기",
+        "body": [
+          "통로바닥에 전선·이동전선 설치 금지",
+          "손상 우려가 없거나 방지 조치한 경우는 예외(제315조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><path d=\"M60 420 H430\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"18\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 420 H430\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(250 385) scale(0.9)\"><path d=\"M-130 -60 H70 L110 -20 V20 H-130 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-110\" y=\"-120\" width=\"110\" height=\"62\" rx=\"12\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-96\" y=\"-108\" width=\"80\" height=\"38\" rx=\"8\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-80\" cy=\"30\" r=\"32\" fill=\"#22304A\"/><circle cx=\"-80\" cy=\"30\" r=\"12\" fill=\"#ADB5BD\"/><circle cx=\"60\" cy=\"30\" r=\"32\" fill=\"#22304A\"/><circle cx=\"60\" cy=\"30\" r=\"12\" fill=\"#ADB5BD\"/></g><g transform=\"translate(250 120) scale(0.7)\"><circle r=\"38\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -14 L14 14 M14 -14 L-14 14\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M520 140 H860\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M600 140 V180 q0 20 -16 20\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M780 140 V180 q0 20 -16 20\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M520 170 Q600 230 600 200 Q690 250 780 200 Q830 220 860 170\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"18\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M520 170 Q600 230 600 200 Q690 250 780 200 Q830 220 860 170\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(690 330) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "물기 있는 곳이라면",
+        "body": [
+          "충분한 절연효과가 있는 이동전선(제314조)",
+          "꽂음접속기는 방수형 등 장소에 맞게",
+          "젖은 손으로 꽂거나 빼지 않기(제316·317조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><ellipse cx=\"260\" cy=\"420\" rx=\"150.0\" ry=\"22\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(180 200) scale(0.9)\"><path d=\"M0 -40 Q30 0 22 18 Q0 44 -22 18 Q-30 0 0 -40 Z\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(300 150) scale(0.7)\"><path d=\"M0 -40 Q30 0 22 18 Q0 44 -22 18 Q-30 0 0 -40 Z\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(560 270) scale(1.0)\"><rect x=\"-80\" y=\"-90\" width=\"160\" height=\"180\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-24\" cy=\"10\" r=\"11\" fill=\"#22304A\"/><circle cx=\"24\" cy=\"10\" r=\"11\" fill=\"#22304A\"/><path d=\"M-90 -100 H90 L80 -60 H-80 Z\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M560 360 Q560 420 680 430 H860\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"18\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M560 360 Q560 420 680 430 H860\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(780 140) scale(0.8)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "차단기, 바로 올리지 말기",
+        "body": [
+          "과전류 차단장치로 자동 차단됐다면",
+          "회로·기기가 안전하다는 것이 증명되기 전까지",
+          "다시 올리지 않기(제317조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(300 440) scale(1.0)\"><rect x=\"-90\" y=\"-260\" width=\"180\" height=\"260\" rx=\"26\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-230\" width=\"120\" height=\"110\" rx=\"16\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-18\" y=\"-212\" width=\"36\" height=\"74\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-12\" y=\"-158\" width=\"24\" height=\"16\" rx=\"5\" fill=\"#22304A\"/></g><g transform=\"translate(620 290) scale(0.6)\"><rect x=\"-110\" y=\"-150\" width=\"220\" height=\"290\" rx=\"20\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-50\" y=\"-168\" width=\"100\" height=\"36\" rx=\"10\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-80\" y=\"-108\" width=\"36\" height=\"36\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-72 -90 l8 8 l14 -16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-26 -90 H80\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-80\" y=\"-38\" width=\"36\" height=\"36\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-72 -20 l8 8 l14 -16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-26 -20 H80\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-80\" y=\"32\" width=\"36\" height=\"36\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-72 50 l8 8 l14 -16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-26 50 H80\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(780 120) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(140 140) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "관련 법령",
+        "body": [
+          "산업안전보건기준에 관한 규칙",
+          "제313조~제317조(배선·이동전선 등)",
+          "원문은 국가법령정보센터에서 확인"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(300 290) scale(1.0)\"><rect x=\"-110\" y=\"-150\" width=\"220\" height=\"290\" rx=\"20\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-50\" y=\"-168\" width=\"100\" height=\"36\" rx=\"10\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-80\" y=\"-108\" width=\"36\" height=\"36\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-72 -90 l8 8 l14 -16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-26 -90 H80\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-80\" y=\"-38\" width=\"36\" height=\"36\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-72 -20 l8 8 l14 -16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-26 -20 H80\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-80\" y=\"32\" width=\"36\" height=\"36\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-72 50 l8 8 l14 -16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-26 50 H80\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(640 445) scale(0.9)\"><rect x=\"-34\" y=\"-42\" width=\"28\" height=\"42\" rx=\"10\" fill=\"#4C6EF5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"6\" y=\"-42\" width=\"28\" height=\"42\" rx=\"10\" fill=\"#4C6EF5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"-22\" cy=\"0\" rx=\"22\" ry=\"10\" fill=\"#22304A\"/><ellipse cx=\"22\" cy=\"0\" rx=\"22\" ry=\"10\" fill=\"#22304A\"/><path d=\"M-38 -100 Q-64.0 -108.0 -90 -140\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-38 -100 Q-64.0 -108.0 -90 -140\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-90\" cy=\"-140\" r=\"14\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M38 -100 Q51.0 -73.0 64 -70\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"22\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M38 -100 Q51.0 -73.0 64 -70\" fill=\"none\" stroke=\"#FF922B\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"64\" cy=\"-70\" r=\"14\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-44\" y=\"-118\" width=\"88\" height=\"82\" rx=\"24\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-44\" y=\"-88\" width=\"88\" height=\"14\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\"/><path d=\"M0 -116 V-40\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"-185\" r=\"68\" fill=\"#FFD8B5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-22.0\" cy=\"-178\" r=\"9.0\" fill=\"#22304A\"/><circle cx=\"22.0\" cy=\"-178\" r=\"9.0\" fill=\"#22304A\"/><circle cx=\"-19.0\" cy=\"-181.0\" r=\"3.5\" fill=\"#FFFFFF\"/><circle cx=\"25.0\" cy=\"-181.0\" r=\"3.5\" fill=\"#FFFFFF\"/><ellipse cx=\"-34.0\" cy=\"-162.0\" rx=\"10.0\" ry=\"6.0\" fill=\"#FFA8B8\"/><ellipse cx=\"34.0\" cy=\"-162.0\" rx=\"10.0\" ry=\"6.0\" fill=\"#FFA8B8\"/><path d=\"M-12.0 -162.0 q12.0 14.0 24.0 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-60 -170 Q-58 -128 -30 -122\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 -170 Q58 -128 30 -122\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-66 -200 Q-66 -268 0 -268 Q66 -268 66 -200 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-84\" y=\"-206\" width=\"168\" height=\"18\" rx=\"9\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -266 V-210\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(470 110) scale(0.8)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(140 150) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      }
+    ],
+    "caption": "현장에서 쓰는 이동전선, 통로 바닥에 그냥 깔아 둬도 될까요?\n\n고용노동부가 공개한 재해사례입니다. 도금조 안에서 휴대용 연삭기로 작업하던 중, 연삭기 전선의 절연피복이 손상돼 드러난 충전부가 도금조에 닿으면서 작업자가 감전으로 숨졌습니다.\n\n산업안전보건기준에 관한 규칙은 배선·이동전선에 대해 이렇게 정하고 있습니다.\n① 작업·통행 중 닿을 수 있는 배선·이동전선은 피복 손상·노화로 인한 감전을 막는 조치(제313조)\n② 전선을 이을 땐 절연성능 이상으로 충분히 피복하거나 적합한 접속기구 사용(제313조)\n③ 통로바닥에 전선 설치 금지 — 피복 손상 우려가 없거나 손상되지 않도록 적절히 조치한 경우는 예외(제315조)\n④ 물기 있는 곳은 절연효과가 충분한 이동전선, 방수형 등 알맞은 꽂음접속기, 젖은 손 취급 금지(제314·316·317조)\n⑤ 차단기가 자동으로 떨어졌다면 회로·기기가 안전하다는 것이 증명되기 전까지 다시 올리지 않기(제317조)\n\n※ 세부 요건은 법령 원문(2025.9.1. 시행본 기준)을 확인하세요.\n\n출처:\n- 고용노동부 – 휴대용 연삭기 감전 재해사례(2007 게시)\n- 국가법령정보센터(법제처) – 산업안전보건기준에 관한 규칙 제313조~제317조\n\n개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다.",
+    "hashtags": [
+      "#감전예방",
+      "#이동전선",
+      "#전기안전",
+      "#가설전선",
+      "#현장안전",
+      "#안전보건규칙"
+    ],
+    "sources": [
+      {
+        "title": "[재해사례] 휴대용 연삭기로 도금조 사상 작업중 감전 사고(2007.11.12. 게시)",
+        "url": "https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=1194865098672",
+        "publisher": "고용노동부"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제313조(배선 등의 절연피복 등)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제314조(습윤한 장소의 이동전선 등)·제315조(통로바닥에서의 전선 등 사용 금지)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제316조(꽂음접속기의 설치·사용 시 준수사항)·제317조(이동 및 휴대장비 등의 사용 전기 작업)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      }
+    ],
+    "legal_refs": [
+      "산업안전보건기준에 관한 규칙 제313조",
+      "산업안전보건기준에 관한 규칙 제314조",
+      "산업안전보건기준에 관한 규칙 제315조",
+      "산업안전보건기준에 관한 규칙 제316조",
+      "산업안전보건기준에 관한 규칙 제317조"
+    ]
+  },
+  "review": {
+    "score": 93,
+    "passed": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "4장·캡션 ③",
+        "problem": "제315조 단서 예외 중 '손상 우려가 없는 경우'를 빠뜨려 예외 범위를 좁힘",
+        "fix": "'손상 우려가 없거나 방지 조치한 경우는 예외'로 수정(반영)"
+      },
+      {
+        "severity": "minor",
+        "where": "6장·캡션 ⑤",
+        "problem": "제317조 '증명' 요건을 '확인'으로 느슨하게 씀",
+        "fix": "'안전하다는 것이 증명되기 전까지'로 수정(반영)"
+      },
+      {
+        "severity": "minor",
+        "where": "1장·7장·6장 일러스트",
+        "problem": "기관 약칭(노동부), 법령 약칭만 표기, 경고 장면에 웃는 분전반",
+        "fix": "'고용노동부', 정식 법령명 표기, 분전반 얼굴 제거(반영)"
+      }
+    ],
+    "summary": "모든 주장이 고용노동부 재해사례와 안전보건규칙 제313~317조에 근거하고 잘못된 작업방법·부상 묘사 없음. 93점 합격, minor 5건 모두 반영."
+  }
+}
