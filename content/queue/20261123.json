@@ -1,0 +1,160 @@
+{
+  "date": "20261123",
+  "category": "electrical_knowledge",
+  "research": {
+    "topic": "전기 기계·기구의 접지 — 대상, 예외, 누전차단기와의 관계, 접지설비 점검",
+    "key_facts": [
+      "고용노동부 재해사례(2007.11.13. 게시, 제목 '[재해사례] 이동형 전등 외함 접촉에 의한 감전 사망'): 정박 중인 선박 기관실 내 하부 바닥 철판을 교체하기 위해 밸브 해체 작업을 하던 중, 작업장소의 조도를 높이기 위해 이동용 전등 외함에 재해자 손이 접촉하는 순간 감전되어 사망. 원문에 재해원인·대책 항목은 별도 기재 없음",
+      "안전보건규칙 제302조(전기 기계·기구의 접지) ①: 누전에 의한 감전의 위험을 방지하기 위하여 다음 부분에 접지 — 1호 전기 기계·기구의 금속제 외함, 금속제 외피 및 철대 / 2호 고정 설치되거나 고정배선에 접속된 기계·기구의 노출된 비충전 금속체 중 충전될 우려가 있는 것으로서 지면·접지 금속체로부터 수직 2.4m·수평 1.5m 이내, 물기·습기 장소 설치, 사용전압이 대지전압 150V 초과 등 / 4호 코드와 플러그를 접속하여 사용하는 기계·기구 중 노출된 비충전 금속체: 대지전압 150V 초과, 냉장고·세탁기·컴퓨터 및 주변기기 등 고정형, 고정형·이동형·휴대형 전동기계·기구, 물 또는 도전성이 높은 곳에서 사용하는 기계·기구·비접지형 콘센트, 휴대형 손전등",
+      "제302조 ②: 적용하지 않을 수 있는 경우 — 1호 「전기용품 및 생활용품 안전관리법」이 적용되는 이중절연 또는 이와 같은 수준 이상으로 보호되는 구조 / 2호 절연대 위 등 감전 위험이 없는 장소 / 3호 일정 조건(절연변압기 2차 전압 300V 이하, 정격용량 3kVA 이하, 부하측 비접지)의 비접지방식 전로에 접속하여 사용 ④: 설치된 접지설비가 항상 적정상태로 유지되는지 점검하고 이상이 발견되면 즉시 보수하거나 재설치",
+      "제304조(누전차단기에 의한 감전방지) ①: 대지전압 150V 초과 이동형·휴대형, 물 등 도전성 높은 액체가 있는 습윤장소의 저압용, 철판·철골 위 등 도전성 높은 장소의 이동형·휴대형, 임시배선 전로 장소의 이동형·휴대형 전기기계·기구에는 감전방지용 누전차단기 설치 ②: 누전차단기 설치가 어려우면 작업시작 전에 접지선의 연결 및 접속부 상태 등이 적합한지 확실하게 점검",
+      "조문 확인: 국가법령정보센터 산업안전보건기준에 관한 규칙 2025.9.1. 시행본(lsiSeq=273603) 본문"
+    ],
+    "legal_refs": [
+      "산업안전보건기준에 관한 규칙 제302조",
+      "산업안전보건기준에 관한 규칙 제304조"
+    ],
+    "sources": [
+      {
+        "title": "[재해사례] 이동형 전등 외함 접촉에 의한 감전 사망(2007.11.13. 게시)",
+        "url": "https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=1194945726323",
+        "publisher": "고용노동부"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제302조(전기 기계·기구의 접지)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제304조(누전차단기에 의한 감전방지)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      }
+    ]
+  },
+  "post": {
+    "category": "electrical_knowledge",
+    "title": "접지, 왜 해야 할까?",
+    "subtitle": "감전 막는 접지의 대상과 예외",
+    "cover_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(330 400) scale(1.1)\"><rect x=\"-120\" y=\"-180\" width=\"240\" height=\"180\" rx=\"20\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-90\" y=\"-150\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"-115\" r=\"22\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-12.100000000000001\" cy=\"-50\" r=\"4.95\" fill=\"#22304A\"/><circle cx=\"12.100000000000001\" cy=\"-50\" r=\"4.95\" fill=\"#22304A\"/><circle cx=\"-10.450000000000001\" cy=\"-51.65\" r=\"1.9250000000000003\" fill=\"#FFFFFF\"/><circle cx=\"13.750000000000002\" cy=\"-51.65\" r=\"1.9250000000000003\" fill=\"#FFFFFF\"/><ellipse cx=\"-18.700000000000003\" cy=\"-41.2\" rx=\"5.5\" ry=\"3.3000000000000003\" fill=\"#FFA8B8\"/><ellipse cx=\"18.700000000000003\" cy=\"-41.2\" rx=\"5.5\" ry=\"3.3000000000000003\" fill=\"#FFA8B8\"/><path d=\"M-6.6000000000000005 -41.2 q6.6000000000000005 7.700000000000001 13.200000000000001 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M400 400 V400 H600 V440\" fill=\"none\" stroke=\"#51CF66\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(600 440) scale(1.0)\"><path d=\"M0 -40 V0 M-34 0 H34 M-22 14 H22 M-10 28 H10\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(760 120) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(150 140) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(760 340) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#63E6BE\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>",
+    "slides": [
+      {
+        "heading": "사례: 작업등 외함에 감전",
+        "body": [
+          "선박 기관실 바닥 철판 교체 작업 중",
+          "조도를 높이려 이동용 전등 외함에 손이 닿아",
+          "감전 사망(고용노동부 재해사례)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><rect x=\"100\" y=\"400\" width=\"700\" height=\"40\" rx=\"6\" fill=\"#868E96\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M216.66666666666669 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M333.33333333333337 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M450.0 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M566.6666666666667 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M683.3333333333334 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(330 200) scale(1.0)\"><rect x=\"-30\" y=\"0\" width=\"60\" height=\"120\" rx=\"20\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-70 0 L-50 -110 H50 L70 0 Z\" fill=\"#868E96\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-60\" rx=\"38\" ry=\"40\" fill=\"#FFF3B0\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-40 -100 V-20 M-14 -106 V-14 M14 -106 V-14 M40 -100 V-20 M-58 -60 H58\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 120 Q20 170 120 160 T300 170\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(480 190) scale(0.9)\"><path d=\"M10 -50 L-26 8 H0 L-12 52 L30 -10 H4 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(720 230) scale(1.0)\"><path d=\"M0 -50 L48 36 H-48 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -18 V8\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"22\" r=\"6\" fill=\"#22304A\"/></g><g transform=\"translate(800 110) scale(0.6)\"><circle r=\"38\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -14 L14 14 M14 -14 L-14 14\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "접지는 왜 할까?",
+        "body": [
+          "누전에 의한 감전 위험을 막기 위해",
+          "기계·기구의 금속 부분을 접지(제302조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(260 260) scale(1.1)\"><path d=\"M-60 -40 L-90 60 H90 L60 -40 Z\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"60\" rx=\"90\" ry=\"20\" fill=\"#FFF3B0\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -40 V-90 Q0 -120 40 -120\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-12\" y=\"-60\" width=\"24\" height=\"24\" rx=\"6\" fill=\"#22304A\"/><circle cx=\"-11.0\" cy=\"10\" r=\"4.5\" fill=\"#22304A\"/><circle cx=\"11.0\" cy=\"10\" r=\"4.5\" fill=\"#22304A\"/><circle cx=\"-9.5\" cy=\"8.5\" r=\"1.75\" fill=\"#FFFFFF\"/><circle cx=\"12.5\" cy=\"8.5\" r=\"1.75\" fill=\"#FFFFFF\"/><ellipse cx=\"-17.0\" cy=\"18.0\" rx=\"5.0\" ry=\"3.0\" fill=\"#FFA8B8\"/><ellipse cx=\"17.0\" cy=\"18.0\" rx=\"5.0\" ry=\"3.0\" fill=\"#FFA8B8\"/><path d=\"M-6.0 18.0 q6.0 7.0 12.0 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M330 330 V380 H520 V420\" fill=\"none\" stroke=\"#51CF66\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(520 420) scale(1.0)\"><path d=\"M0 -40 V0 M-34 0 H34 M-22 14 H22 M-10 28 H10\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(700 140) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(800 340) scale(0.6)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "어디를 접지할까?",
+        "body": [
+          "금속제 외함·외피·철대",
+          "고정 설치 기계의 노출 금속체 중 충전 우려 있는 것",
+          "(물기·습기 장소, 대지전압 150V 초과 등)(제302조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(260 420) scale(0.9)\"><rect x=\"-120\" y=\"-180\" width=\"240\" height=\"180\" rx=\"20\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-90\" y=\"-150\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"-115\" r=\"22\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-12.100000000000001\" cy=\"-50\" r=\"4.95\" fill=\"#22304A\"/><circle cx=\"12.100000000000001\" cy=\"-50\" r=\"4.95\" fill=\"#22304A\"/><circle cx=\"-10.450000000000001\" cy=\"-51.65\" r=\"1.9250000000000003\" fill=\"#FFFFFF\"/><circle cx=\"13.750000000000002\" cy=\"-51.65\" r=\"1.9250000000000003\" fill=\"#FFFFFF\"/><ellipse cx=\"-18.700000000000003\" cy=\"-41.2\" rx=\"5.5\" ry=\"3.3000000000000003\" fill=\"#FFA8B8\"/><ellipse cx=\"18.700000000000003\" cy=\"-41.2\" rx=\"5.5\" ry=\"3.3000000000000003\" fill=\"#FFA8B8\"/><path d=\"M-6.6000000000000005 -41.2 q6.6000000000000005 7.700000000000001 13.200000000000001 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M330 420 V400 H470 V440\" fill=\"none\" stroke=\"#51CF66\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(470 440) scale(0.8)\"><path d=\"M0 -40 V0 M-34 0 H34 M-22 14 H22 M-10 28 H10\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><ellipse cx=\"680\" cy=\"420\" rx=\"120\" ry=\"20\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(780 120) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "코드·플러그형도 대상",
+        "body": [
+          "냉장고·세탁기·컴퓨터 등 고정형",
+          "이동형·휴대형 전동기계·기구, 휴대형 손전등",
+          "물·도전성 높은 곳에서 쓰는 기구(제302조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(150 440) scale(0.9)\"><rect x=\"-60\" y=\"-220\" width=\"120\" height=\"220\" rx=\"16\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-60 -140 H60 M40 -190 V-160 M40 -110 V-70\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-8.8\" cy=\"-40\" r=\"3.6\" fill=\"#22304A\"/><circle cx=\"8.8\" cy=\"-40\" r=\"3.6\" fill=\"#22304A\"/><circle cx=\"-7.6000000000000005\" cy=\"-41.2\" r=\"1.4000000000000001\" fill=\"#FFFFFF\"/><circle cx=\"10.0\" cy=\"-41.2\" r=\"1.4000000000000001\" fill=\"#FFFFFF\"/><ellipse cx=\"-13.600000000000001\" cy=\"-33.6\" rx=\"4.0\" ry=\"2.4000000000000004\" fill=\"#FFA8B8\"/><ellipse cx=\"13.600000000000001\" cy=\"-33.6\" rx=\"4.0\" ry=\"2.4000000000000004\" fill=\"#FFA8B8\"/><path d=\"M-4.800000000000001 -33.6 q4.800000000000001 5.6000000000000005 9.600000000000001 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(320 440) scale(0.9)\"><rect x=\"-70\" y=\"-160\" width=\"140\" height=\"160\" rx=\"16\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"-70\" r=\"44\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-50 -140 H10\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(530 300) scale(0.9)\"><rect x=\"-80\" y=\"-40\" width=\"130\" height=\"60\" rx=\"20\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-40\" y=\"10\" width=\"44\" height=\"90\" rx=\"14\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 -10 H110\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(730 300) scale(0.9)\"><rect x=\"-60\" y=\"-22\" width=\"100\" height=\"44\" rx=\"14\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 -32 L80 -46 V46 L40 32 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(800 110) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "예외도 있어요",
+        "body": [
+          "이중절연 등 그 이상 보호되는 구조",
+          "절연대 위 등 감전 위험이 없는 장소",
+          "일정 조건의 비접지방식 전로(제302조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(250 260) scale(1.2)\"><rect x=\"-60\" y=\"-60\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-30\" y=\"-30\" width=\"60\" height=\"60\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><rect x=\"430.0\" y=\"396\" width=\"260\" height=\"24\" rx=\"10\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(560 396) scale(0.6)\"><rect x=\"-120\" y=\"-180\" width=\"240\" height=\"180\" rx=\"20\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-90\" y=\"-150\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"-115\" r=\"22\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-12.100000000000001\" cy=\"-50\" r=\"4.95\" fill=\"#22304A\"/><circle cx=\"12.100000000000001\" cy=\"-50\" r=\"4.95\" fill=\"#22304A\"/><circle cx=\"-10.450000000000001\" cy=\"-51.65\" r=\"1.9250000000000003\" fill=\"#FFFFFF\"/><circle cx=\"13.750000000000002\" cy=\"-51.65\" r=\"1.9250000000000003\" fill=\"#FFFFFF\"/><ellipse cx=\"-18.700000000000003\" cy=\"-41.2\" rx=\"5.5\" ry=\"3.3000000000000003\" fill=\"#FFA8B8\"/><ellipse cx=\"18.700000000000003\" cy=\"-41.2\" rx=\"5.5\" ry=\"3.3000000000000003\" fill=\"#FFA8B8\"/><path d=\"M-6.6000000000000005 -41.2 q6.6000000000000005 7.700000000000001 13.200000000000001 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(140 130) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(780 110) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "누전차단기도 함께",
+        "body": [
+          "150V 초과·철판 위·임시배선 장소의 이동·휴대형",
+          "습윤장소의 저압용 기구 등엔 감전방지용 누전차단기",
+          "설치 어려우면 작업 전 접지선 점검(제304조)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(220 270) scale(1.0)\"><rect x=\"-70\" y=\"-110\" width=\"140\" height=\"220\" rx=\"20\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-36\" y=\"-70\" width=\"72\" height=\"90\" rx=\"12\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-16\" y=\"-60\" width=\"32\" height=\"30\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"56\" r=\"18\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><rect x=\"380\" y=\"400\" width=\"440\" height=\"40\" rx=\"6\" fill=\"#868E96\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M453.3333333333333 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M526.6666666666666 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M600.0 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M673.3333333333333 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M746.6666666666667 400 V440\" fill=\"none\" stroke=\"#495057\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(600 330) scale(0.9)\"><rect x=\"-80\" y=\"-40\" width=\"130\" height=\"60\" rx=\"20\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-40\" y=\"10\" width=\"44\" height=\"90\" rx=\"14\" fill=\"#FF922B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 -10 H110\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(780 110) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(140 120) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "접지는 점검까지",
+        "body": [
+          "접지설비가 늘 적정한지 점검",
+          "이상이 있으면 즉시 보수·재설치(제302조)",
+          "원문은 국가법령정보센터에서 확인"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(250 290) scale(0.9)\"><rect x=\"-110\" y=\"-150\" width=\"220\" height=\"290\" rx=\"20\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-50\" y=\"-168\" width=\"100\" height=\"36\" rx=\"10\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-80\" y=\"-108\" width=\"36\" height=\"36\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-72 -90 l8 8 l14 -16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-26 -90 H80\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-80\" y=\"-38\" width=\"36\" height=\"36\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-72 -20 l8 8 l14 -16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-26 -20 H80\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-80\" y=\"32\" width=\"36\" height=\"36\" rx=\"8\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-72 50 l8 8 l14 -16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-26 50 H80\" fill=\"none\" stroke=\"#ADB5BD\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(520 330) scale(1.2)\"><path d=\"M0 -40 V0 M-34 0 H34 M-22 14 H22 M-10 28 H10\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(700 300) scale(1.0)\"><path d=\"M-60 60 L30 -30\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"18\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 -60 a40 40 0 1 0 40 40 l-26 -6 l-8 -26 Z\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(780 110) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      }
+    ],
+    "caption": "전기기계의 금속 외함, 맨손으로 만져도 괜찮을까요?\n\n고용노동부가 공개한 재해사례입니다. 선박 기관실에서 바닥 철판을 교체하던 작업자가, 조도를 높이려고 이동용 전등의 외함에 손을 대는 순간 감전돼 숨졌습니다(원 사례에 원인·대책 항목은 따로 없습니다).\n\n산업안전보건기준에 관한 규칙은 누전에 의한 감전을 막기 위해 이렇게 정하고 있습니다.\n① 금속제 외함·외피·철대, 고정 설치 기계의 노출 금속체 중 충전 우려가 있는 것(물기·습기 장소, 대지전압 150V 초과 등)은 접지(제302조)\n② 코드·플러그로 쓰는 냉장고·세탁기·컴퓨터 등 고정형, 이동형·휴대형 전동기계·기구, 물·도전성 높은 곳에서 쓰는 기구, 휴대형 손전등도 접지 대상(제302조)\n③ 이중절연 등 그 이상 보호되는 구조, 절연대 위 등 감전 위험이 없는 장소, 일정 조건의 비접지방식 전로는 예외(제302조)\n④ 대지전압 150V 초과·철판·철골 위·임시배선 장소의 이동형·휴대형 기구, 습윤장소의 저압용 기구에는 감전방지용 누전차단기, 설치가 어려우면 작업 전 접지선 점검(제304조)\n⑤ 접지설비는 늘 점검하고 이상이 있으면 즉시 보수·재설치(제302조)\n\n※ 세부 요건은 법령 원문(2025.9.1. 시행본 기준)을 확인하세요.\n\n출처:\n- 고용노동부 – 이동형 전등 외함 접촉 감전 재해사례(2007 게시)\n- 국가법령정보센터(법제처) – 산업안전보건기준에 관한 규칙 제302조·제304조\n\n개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다.",
+    "hashtags": [
+      "#접지",
+      "#감전예방",
+      "#누전차단기",
+      "#전기상식",
+      "#전기안전",
+      "#안전보건규칙"
+    ],
+    "sources": [
+      {
+        "title": "[재해사례] 이동형 전등 외함 접촉에 의한 감전 사망(2007.11.13. 게시)",
+        "url": "https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=1194945726323",
+        "publisher": "고용노동부"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제302조(전기 기계·기구의 접지)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      },
+      {
+        "title": "산업안전보건기준에 관한 규칙 제304조(누전차단기에 의한 감전방지)",
+        "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+        "publisher": "국가법령정보센터(법제처)"
+      }
+    ],
+    "legal_refs": [
+      "산업안전보건기준에 관한 규칙 제302조",
+      "산업안전보건기준에 관한 규칙 제304조"
+    ]
+  },
+  "review": {
+    "score": 90,
+    "passed": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "6장·캡션 ④",
+        "problem": "제304조 습윤장소(저압용 전반) 범위를 좁히고 '대지전압 150V 초과 이동·휴대형' 누락",
+        "fix": "요건을 나눠 표기(반영)"
+      },
+      {
+        "severity": "minor",
+        "where": "3장·캡션 ①",
+        "problem": "제302조①2호 요건(고정 설치·충전 우려) 생략으로 범위 확대",
+        "fix": "'고정 설치 기계의 노출 금속체 중 충전 우려 있는 것'으로 보완(반영)"
+      },
+      {
+        "severity": "minor",
+        "where": "1장 일러스트·2장",
+        "problem": "이동용 전등이 펜던트 조명처럼 보임, 사례 주석 위치 어색",
+        "fix": "보호망·손잡이 달린 휴대용 작업등으로 교체, 주석은 캡션에만 유지(반영)"
+      }
+    ],
+    "summary": "제302·304조와 고용노동부 재해사례에 근거, 원인 추정·공포조장 없음. 90점 합격, 범위 표현 다듬기 모두 반영."
+  }
+}
