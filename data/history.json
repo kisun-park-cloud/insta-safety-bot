@@ -158,5 +158,13 @@
     "status": "published",
     "media_id": "18085791731711186",
     "format": "carousel"
+  },
+  {
+    "date": "20261123",
+    "category": "electrical_knowledge",
+    "topic": "접지, 왜 해야 할까?",
+    "status": "published",
+    "media_id": "18120257773818134",
+    "format": "carousel"
   }
 ]
