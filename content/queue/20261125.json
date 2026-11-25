@@ -1,0 +1,145 @@
+{
+  "date": "20261125",
+  "category": "home_electrical",
+  "research": {
+    "topic": "스마트폰·보조배터리 등 생활 속 리튬이온배터리 화재 예방",
+    "key_facts": [
+      "소방청(정책브리핑 2024.7.23.): 리튬이온배터리 사용 제품 — 전자담배, 노트북, 블루투스 헤드셋, 스마트폰, 전동 킥보드, 전기 스쿠터, 디지털카메라. 과충전 및 물리적 손상으로 인한 과열 또는 발화의 위험. 수칙: 구매 시 \"KC공식인증 제품 구매\", \"배터리 뿐 아니라 충전기도 인증 제품 사용\" / 사용 시 \"사용 설명서에 따라 이용\", \"사용 및 폐기시 제조사의 안전지침 및 규정 준수\", \"파손된 배터리 사용 금지\", \"사용 중 고온(직사광선 등) 및 충격주의\", \"배터리 단락 방지를 위해 습도 높은 장소 피하기\" / 충전 시 \"베개 아래, 침대 및 소파 위에서 제품 충전 금지\", \"충전 완료 후, 코드를 뽑거나 배터리 연결선 제거\" / 사고 시 \"신속한 대피가 가장 현명\", 연기·불꽃·제품 부풀어 오름 등 이상징후 시 즉시 사용 중지, 안전한 곳으로 대피 후 119 신고. 통계 없음",
+      "소방청(정책브리핑 2025.7.15.): 2020~2024년 리튬이온배터리 화재 678건(2020년 98건→2024년 117건), 품목별 전동킥보드 485건(70%), 전기자전거 111건, 휴대폰 41건, 전기오토바이 31건, 전자담배 10건. 폐기 시 배터리 단자를 절연테이프로 감싼 뒤 지자체 폐전지 수거함이나 제조사 공식 회수 경로로 배출",
+      "산업통상부 국가기술표준원 등(정책브리핑 2025.11.10.) 화재사고 예방 캠페인: 고온·다습한 환경에서 보조배터리를 보관하거나 사용하지 않기(통계 없음)"
+    ],
+    "legal_refs": [],
+    "sources": [
+      {
+        "title": "스마트폰, 블루투스 헤드셋 등에 쓰이는 '리튬이온배터리', 화재예방 이렇게 하세요!(2024.7.23.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148931754",
+        "publisher": "정책브리핑(소방청)"
+      },
+      {
+        "title": "전동킥보드·전기자전거 '화재 예방'…완충 즉시 플러그 뽑아야(2025.7.15.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148946042",
+        "publisher": "정책브리핑(소방청)"
+      },
+      {
+        "title": "보조배터리 등 화재사고 예방 캠페인…\"고온·다습 환경서 보관·사용 자제\"(2025.11.10.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148954493",
+        "publisher": "정책브리핑(산업통상부)"
+      }
+    ]
+  },
+  "post": {
+    "category": "home_electrical",
+    "title": "베개 밑 충전, 괜찮을까?",
+    "subtitle": "휴대폰·보조배터리 화재 막는 습관",
+    "cover_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><rect x=\"260.0\" y=\"360\" width=\"380\" height=\"26\" rx=\"8\" fill=\"#E0B07A\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M290.0 386 V480 M610.0 386 V480\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(400 300) scale(0.45)\"><rect x=\"-65.0\" y=\"-120\" width=\"130\" height=\"240\" rx=\"26\" fill=\"#22304A\"/><rect x=\"-53.0\" y=\"-104\" width=\"106\" height=\"196\" rx=\"14\" fill=\"#74C0FC\"/><circle cx=\"-13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"-11.399999999999999\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><circle cx=\"15.0\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><ellipse cx=\"-20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><ellipse cx=\"20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><path d=\"M-7.199999999999999 -0.40000000000000036 q7.199999999999999 8.4 14.399999999999999 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(560 320) scale(0.7)\"><rect x=\"-46\" y=\"-36\" width=\"92\" height=\"72\" rx=\"16\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-18 -36 V-66 M18 -36 V-66\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M528 330 Q480 360 428 330\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(760 120) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(150 140) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>",
+    "slides": [
+      {
+        "heading": "생각보다 많은 배터리",
+        "body": [
+          "스마트폰·블루투스 헤드셋·노트북",
+          "전자담배·디지털카메라·전동킥보드 등",
+          "과충전·손상되면 과열·발화 위험(소방청)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(150 260) scale(0.7)\"><rect x=\"-65.0\" y=\"-120\" width=\"130\" height=\"240\" rx=\"26\" fill=\"#22304A\"/><rect x=\"-53.0\" y=\"-104\" width=\"106\" height=\"196\" rx=\"14\" fill=\"#74C0FC\"/><circle cx=\"-13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"-11.399999999999999\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><circle cx=\"15.0\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><ellipse cx=\"-20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><ellipse cx=\"20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><path d=\"M-7.199999999999999 -0.40000000000000036 q7.199999999999999 8.4 14.399999999999999 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(330 300) scale(1.0)\"><rect x=\"-60\" y=\"-40\" width=\"120\" height=\"80\" rx=\"40\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-60 0 H60\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(540 340) scale(1.0)\"><rect x=\"-90\" y=\"-120\" width=\"180\" height=\"110\" rx=\"10\" fill=\"#22304A\"/><rect x=\"-78\" y=\"-110\" width=\"156\" height=\"90\" rx=\"6\" fill=\"#74C0FC\"/><path d=\"M-120 0 H120 L100 -12 H-100 Z\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(760 280) scale(0.9)\"><rect x=\"-70\" y=\"-50\" width=\"140\" height=\"100\" rx=\"16\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle r=\"32\" fill=\"#22304A\"/><circle r=\"14\" fill=\"#74C0FC\"/></g><g transform=\"translate(450 120) scale(0.7)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "5년간 678건",
+        "body": [
+          "2020~24년 리튬이온배터리 화재(소방청)",
+          "2020년 98건 → 2024년 117건",
+          "휴대폰 41건, 전자담배 10건 등"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><rect x=\"120\" y=\"130\" width=\"260\" height=\"200\" rx=\"20\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"160\" y=\"200\" width=\"56\" height=\"110\" rx=\"8\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"230\" y=\"190\" width=\"56\" height=\"120\" rx=\"8\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"300\" y=\"178\" width=\"56\" height=\"132\" rx=\"8\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(600 260) scale(0.7)\"><rect x=\"-65.0\" y=\"-120\" width=\"130\" height=\"240\" rx=\"26\" fill=\"#22304A\"/><rect x=\"-53.0\" y=\"-104\" width=\"106\" height=\"196\" rx=\"14\" fill=\"#74C0FC\"/><circle cx=\"-18\" cy=\"-14\" r=\"7\" fill=\"#22304A\"/><circle cx=\"18\" cy=\"-14\" r=\"7\" fill=\"#22304A\"/><path d=\"M-12 14 q12 -10 24 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(800 140) scale(0.7)\"><path d=\"M0 -50 L48 36 H-48 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -18 V8\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"22\" r=\"6\" fill=\"#22304A\"/></g></svg>"
+      },
+      {
+        "heading": "베개·침대 위 충전 금지",
+        "body": [
+          "베개 아래, 침대·소파 위에서 충전하지 않기",
+          "충전이 끝나면 코드 뽑기"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(260 330) scale(1.0)\"><path d=\"M-160 -40 Q-170 -70 -130 -70 H130 Q170 -70 160 -40 V40 Q170 70 130 70 H-130 Q-170 70 -160 40 Z\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-120 -40 Q0 -20 120 -40\" fill=\"none\" stroke=\"#CED4DA\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(260 250) scale(0.4)\"><rect x=\"-65.0\" y=\"-120\" width=\"130\" height=\"240\" rx=\"26\" fill=\"#22304A\"/><rect x=\"-53.0\" y=\"-104\" width=\"106\" height=\"196\" rx=\"14\" fill=\"#74C0FC\"/><circle cx=\"-18\" cy=\"-14\" r=\"7\" fill=\"#22304A\"/><circle cx=\"18\" cy=\"-14\" r=\"7\" fill=\"#22304A\"/><path d=\"M-12 14 q12 -10 24 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(260 120) scale(0.6)\"><circle r=\"38\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -14 L14 14 M14 -14 L-14 14\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><rect x=\"490.0\" y=\"330\" width=\"300\" height=\"26\" rx=\"8\" fill=\"#E0B07A\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M520.0 356 V450 M760.0 356 V450\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g transform=\"translate(620 270) scale(0.4)\"><rect x=\"-65.0\" y=\"-120\" width=\"130\" height=\"240\" rx=\"26\" fill=\"#22304A\"/><rect x=\"-53.0\" y=\"-104\" width=\"106\" height=\"196\" rx=\"14\" fill=\"#74C0FC\"/><circle cx=\"-13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"-11.399999999999999\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><circle cx=\"15.0\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><ellipse cx=\"-20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><ellipse cx=\"20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><path d=\"M-7.199999999999999 -0.40000000000000036 q7.199999999999999 8.4 14.399999999999999 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(640 120) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "살 때는 KC 인증",
+        "body": [
+          "배터리뿐 아니라 충전기도 인증 제품",
+          "사용설명서·제조사 안전지침 따르기"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(240 260) scale(1.1)\"><path d=\"M0 -90 L70 -60 V10 Q70 70 0 96 Q-70 70 -70 10 V-60 Z\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-28 4 L-6 28 L32 -20\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"14\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(460 260) scale(0.6)\"><rect x=\"-65.0\" y=\"-120\" width=\"130\" height=\"240\" rx=\"26\" fill=\"#22304A\"/><rect x=\"-53.0\" y=\"-104\" width=\"106\" height=\"196\" rx=\"14\" fill=\"#74C0FC\"/><circle cx=\"-13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"-11.399999999999999\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><circle cx=\"15.0\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><ellipse cx=\"-20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><ellipse cx=\"20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><path d=\"M-7.199999999999999 -0.40000000000000036 q7.199999999999999 8.4 14.399999999999999 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(650 300) scale(1.0)\"><rect x=\"-46\" y=\"-36\" width=\"92\" height=\"72\" rx=\"16\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-18 -36 V-66 M18 -36 V-66\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(800 110) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "더위·습기·충격 피하기",
+        "body": [
+          "고온(직사광선 등)·충격 주의",
+          "습도 높은 곳 피하기(단락 방지)",
+          "보조배터리 고온·다습 보관·사용 자제(산업부 등)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(170 150) scale(1.0)\"><circle r=\"46\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -70 V-58 M0 58 V70 M-70 0 H-58 M58 0 H70 M-50 -50 l9 9 M41 41 l9 9 M-50 50 l9 -9 M41 -41 l9 -9\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(330 160) scale(1.0)\"><path d=\"M0 -40 Q30 0 22 18 Q0 44 -22 18 Q-30 0 0 -40 Z\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(250 340) scale(0.8)\"><rect x=\"-50\" y=\"-90\" width=\"100\" height=\"180\" rx=\"20\" fill=\"#F1F3F5\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"-40\" r=\"7\" fill=\"#51CF66\"/><circle cx=\"0\" cy=\"-16\" r=\"7\" fill=\"#51CF66\"/><circle cx=\"0\" cy=\"8\" r=\"7\" fill=\"#51CF66\"/><circle cx=\"0\" cy=\"32\" r=\"7\" fill=\"#51CF66\"/></g><g transform=\"translate(400 300) scale(0.6)\"><circle r=\"38\" fill=\"#FF6B6B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-14 -14 L14 14 M14 -14 L-14 14\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(650 290) scale(0.6)\"><rect x=\"-65.0\" y=\"-120\" width=\"130\" height=\"240\" rx=\"26\" fill=\"#22304A\"/><rect x=\"-53.0\" y=\"-104\" width=\"106\" height=\"196\" rx=\"14\" fill=\"#74C0FC\"/><circle cx=\"-13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"13.2\" cy=\"-10\" r=\"5.3999999999999995\" fill=\"#22304A\"/><circle cx=\"-11.399999999999999\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><circle cx=\"15.0\" cy=\"-11.8\" r=\"2.1\" fill=\"#FFFFFF\"/><ellipse cx=\"-20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><ellipse cx=\"20.4\" cy=\"-0.40000000000000036\" rx=\"6.0\" ry=\"3.5999999999999996\" fill=\"#FFA8B8\"/><path d=\"M-7.199999999999999 -0.40000000000000036 q7.199999999999999 8.4 14.399999999999999 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(780 110) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "부풀면 바로 멈추기",
+        "body": [
+          "파손된 배터리는 쓰지 않기",
+          "연기·불꽃·부풀음 → 즉시 사용 중지",
+          "안전한 곳으로 대피 후 119 신고"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(240 280) scale(0.8)\"><rect x=\"-75.0\" y=\"-120\" width=\"150\" height=\"240\" rx=\"26\" fill=\"#22304A\"/><rect x=\"-63.0\" y=\"-104\" width=\"126\" height=\"196\" rx=\"14\" fill=\"#74C0FC\"/><path d=\"M-75.0 -40 Q-99.0 0 -75.0 40 M75.0 -40 Q99.0 0 75.0 40\" fill=\"none\" stroke=\"#FF6B6B\" stroke-width=\"8\"/><circle cx=\"-18\" cy=\"-14\" r=\"7\" fill=\"#22304A\"/><circle cx=\"18\" cy=\"-14\" r=\"7\" fill=\"#22304A\"/><path d=\"M-12 14 q12 -10 24 0\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(240 120) scale(0.7)\"><path d=\"M-20 0 q-30 -30 0 -60 q-20 -40 20 -60 q40 -10 30 30 q30 20 0 50 q10 30 -30 40 Z\" fill=\"#ADB5BD\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(470 270) scale(1.0)\"><path d=\"M0 -50 L48 36 H-48 Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M0 -18 V8\" fill=\"none\" stroke=\"#22304A\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"22\" r=\"6\" fill=\"#22304A\"/></g><g transform=\"translate(680 260) scale(1.0)\"><rect x=\"-80\" y=\"-50\" width=\"160\" height=\"100\" rx=\"14\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-40 0 H30 M10 -22 L34 0 L10 22\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(800 260) scale(0.6)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "heading": "버릴 땐 단자에 테이프",
+        "body": [
+          "단자를 절연테이프로 감싸기",
+          "지자체 폐전지 수거함이나",
+          "제조사 공식 회수 경로로(소방청)"
+        ],
+        "illustration_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 900 480\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"480\" fill=\"#E3F5FF\"/><ellipse cx=\"450\" cy=\"460\" rx=\"440\" ry=\"48\" fill=\"#C9F0D9\"/><circle cx=\"80\" cy=\"70\" r=\"34\" fill=\"#FFF3B0\"/><path d=\"M770 70 q20 -30 45 0 q30 -5 30 22 q0 22 -30 22 h-50 q-25 0 -22 -22 q3 -20 27 -22z\" fill=\"#FFFFFF\"/><g transform=\"translate(300 280) scale(1.1)\"><rect x=\"-90\" y=\"-50\" width=\"180\" height=\"100\" rx=\"16\" fill=\"#FFFFFF\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-110\" y=\"-26\" width=\"34\" height=\"52\" rx=\"8\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"76\" y=\"-26\" width=\"34\" height=\"52\" rx=\"8\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(640 360) scale(1.0)\"><path d=\"M-80 -120 H80 L66 40 H-66 Z\" fill=\"#5C7CFA\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"-92\" y=\"-140\" width=\"184\" height=\"26\" rx=\"8\" fill=\"#74C0FC\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(470 110) scale(0.7)\"><circle r=\"38\" fill=\"#51CF66\" stroke=\"#22304A\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M-16 0 L-4 13 L18 -12\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(140 140) scale(1.0)\"><path d=\"M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6Z\" fill=\"#FFD43B\" stroke=\"#22304A\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>"
+      }
+    ],
+    "caption": "잠들기 전 휴대폰, 베개 밑에서 충전하시나요?\n\n소방청에 따르면 2020~2024년 리튬이온배터리 화재는 678건으로 2020년 98건에서 2024년 117건으로 늘었고, 이 중 휴대폰이 41건이었습니다. 스마트폰·블루투스 헤드셋·노트북·전자담배처럼 생활 곳곳에 리튬이온배터리가 들어 있습니다.\n\n소방청 등이 안내하는 생활 속 배터리 수칙입니다.\n① 베개 아래, 침대·소파 위에서 충전하지 않고, 다 되면 코드 뽑기\n② 배터리와 충전기 모두 KC 인증 제품, 사용설명서·제조사 안전지침 따르기\n③ 직사광선 등 고온·충격 주의, 습도 높은 곳 피하기 — 보조배터리도 고온·다습한 곳에 두거나 쓰지 않기\n④ 파손된 배터리는 쓰지 말고, 연기·불꽃·부풀음이 보이면 즉시 사용을 멈추고 대피한 뒤 119\n⑤ 버릴 땐 단자를 절연테이프로 감싸 폐전지 수거함이나 제조사 회수 경로로\n\n출처:\n- 소방청 – 리튬이온배터리 화재예방(2024), 리튬이온배터리 화재 현황(2025)\n- 산업통상부 – 보조배터리 등 화재사고 예방 캠페인(2025)\n\n개인이 운영하는 안전정보 공유 계정이며 소속 기관의 공식 입장과 무관합니다. 법령 해석의 최종 근거는 국가법령정보센터 원문입니다.",
+    "hashtags": [
+      "#보조배터리",
+      "#리튬이온배터리",
+      "#배터리화재",
+      "#충전안전",
+      "#생활안전",
+      "#화재예방"
+    ],
+    "sources": [
+      {
+        "title": "스마트폰, 블루투스 헤드셋 등에 쓰이는 '리튬이온배터리', 화재예방 이렇게 하세요!(2024.7.23.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148931754",
+        "publisher": "정책브리핑(소방청)"
+      },
+      {
+        "title": "전동킥보드·전기자전거 '화재 예방'…완충 즉시 플러그 뽑아야(2025.7.15.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148946042",
+        "publisher": "정책브리핑(소방청)"
+      },
+      {
+        "title": "보조배터리 등 화재사고 예방 캠페인…\"고온·다습 환경서 보관·사용 자제\"(2025.11.10.)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148954493",
+        "publisher": "정책브리핑(산업통상부)"
+      }
+    ],
+    "legal_refs": []
+  },
+  "review": {
+    "score": 91,
+    "passed": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "2장·6장·표지 일러스트",
+        "problem": "증가폭 과장 그래프·통계에 없는 보조배터리 그림, 이상징후 장면 옆 초록 체크, 충전선 미연결",
+        "fix": "완만한 그래프로 수정·보조배터리 제거, 체크를 대피 표지 옆으로 이동, 충전선 연결(반영)"
+      },
+      {
+        "severity": "minor",
+        "where": "5장",
+        "problem": "산업통상부 캠페인 내용에 출처 미표기",
+        "fix": "'(산업부 등)' 표기(반영)"
+      }
+    ],
+    "summary": "소방청·산업통상부 공개자료에 근거, 잘못된 사용법·부상 묘사 없음. 91점 합격, 일러스트·출처 보완 반영(면책문구는 계정 공통 문구라 유지)."
+  }
+}
